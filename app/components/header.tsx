@@ -76,7 +76,8 @@ const Header = () => {
           </ul>
           <ul className="flex gap-4 lg:gap-14">
             <li className="flex items-center gap-3 text-sm text-[#C7C7C7]">
-              <MdEmail className="text-blue-300" fontSize={15} /> info@docmed.com
+              <MdEmail className="text-blue-300" fontSize={15} />{" "}
+              info@docmed.com
             </li>
             <li className="flex items-center gap-3 text-sm text-[#C7C7C7]">
               <FaPhoneAlt className="text-blue-300" fontSize={15} /> +91
@@ -91,25 +92,39 @@ const Header = () => {
         <div
           className={`transition-all duration-300 ease-linear ${
             isFixed
-              ? "fixed top-0 z-50 w-full bg-white shadow-lg py-2"
+              ? "fixed top-0 z-50 w-full max-w-7xl bg-white shadow-lg py-2"
               : "bg-white"
           }`}
         >
           <div className="flex justify-between gap-3 py-3 px-4 mx-2 items-center md:mx-16">
             {/* Logo */}
-            <div className="w-40 flex items-center lg:flex-1 md:w-60">
+            <div className="relative w-40 aspect-18/4 flex items-center justify-start lg:flex-1 md:w-60">
               <Link href="/">
-                <Image alt="logo" width={440} height={0} src={"/logopc.png"} />
+                <Image
+                  src="/logopc.png"
+                  alt="Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </Link>
             </div>
 
             {/* Desktop Nav */}
             <nav className="hidden lg:flex lg:flex-2 ">
               <ul className="lg:flex lg:flex-1 lg:justify-evenly lg:items-center gap-3">
-                <li>Home</li>
-                <li>Department</li>
-                <li>Doctors</li>
-                <li>Contact</li>
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/department">Department</Link>
+                </li>
+                <li>
+                  <Link href="/doctors">Doctors</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Contact</Link>
+                </li>
               </ul>
             </nav>
 
