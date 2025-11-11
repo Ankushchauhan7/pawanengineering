@@ -145,7 +145,7 @@ export default function Footer() {
       <div className="border-t border-white/10 mx-2 md:mx-16">
         <div className="mx-auto max-w-7xl px-4 py-5 text-sm text-neutral-400 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p>
-            © {new Date().getFullYear()} Pawan Engineering Works. All rights
+            © 2025 Pawan Engineering Works. All rights
             reserved.
           </p>
           <div className="flex items-center gap-6">

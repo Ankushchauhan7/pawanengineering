@@ -38,48 +38,48 @@ const Header = () => {
     <header>
       {/* --- Top Bar --- */}
       <div className="bg-blue-50">
-        <div className="flex flex-col gap-3 py-3 px-4 mx-2 items-center justify-center md:mx-16 lg:justify-between lg:flex-row">
-          <ul className="flex gap-4 ">
+        <div className="flex flex-col gap-2 py-3 px-4 mx-2 items-center justify-center md:mx-16 lg:justify-between lg:flex-row">
+          <ul className="flex gap-4">
             <li>
-              <a
+              <Link
                 href="https://linkedin.com"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#C7C7C7] hover:text-blue-700 transition-colors"
+                className="text-[#C7C7C7] hover:text-blue-700 transition-colors text-xs sm:text-sm"
               >
                 <FaLinkedinIn />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://facebook.com"
                 aria-label="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#C7C7C7] hover:text-blue-700 transition-colors"
+                className="text-[#C7C7C7] hover:text-blue-700 transition-colors text-xs sm:text-sm"
               >
                 <FaFacebookF />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://instagram.com"
                 aria-label="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#C7C7C7] hover:text-pink-600 transition-colors"
+                className="text-[#C7C7C7] hover:text-pink-600 transition-colors  text-xs sm:text-sm"
               >
                 <FaInstagram />
-              </a>
+              </Link>
             </li>
           </ul>
-          <ul className="flex gap-4 lg:gap-14">
-            <li className="flex items-center gap-3 text-sm text-[#C7C7C7]">
-              <MdEmail className="text-blue-300" fontSize={15} />{" "}
-              info@docmed.com
+          <ul className="flex flex-col items-center gap-1 lg:gap-14 sm:flex sm:flex-row">
+            <li className="flex items-center gap-2 text-xs  text-[#C7C7C7] sm:text-sm">
+              <MdEmail className="text-blue-300" fontSize={15} />
+              info@pawanengineering.com
             </li>
-            <li className="flex items-center gap-3 text-sm text-[#C7C7C7]">
+            <li className="flex items-center gap-2 text-xs text-[#C7C7C7] sm:text-sm">
               <FaPhoneAlt className="text-blue-300" fontSize={15} /> +91
               7736077740
             </li>
@@ -98,7 +98,7 @@ const Header = () => {
         >
           <div className="flex justify-between gap-3 py-3 px-4 mx-2 items-center md:mx-16">
             {/* Logo */}
-            <div className="relative w-40 aspect-18/4 flex items-center justify-start lg:flex-1 md:w-60">
+            <div className="relative w-40 aspect-10/2 flex items-center justify-start lg:flex-1 md:w-60">
               <Link href="/">
                 <Image
                   src="/logopc.png"
@@ -111,19 +111,19 @@ const Header = () => {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex lg:flex-2 ">
+            <nav className="hidden lg:flex lg:flex-2 text-sm">
               <ul className="lg:flex lg:flex-1 lg:justify-evenly lg:items-center gap-3">
                 <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/department">Department</Link>
+                  <Link href="/department">Products</Link>
                 </li>
                 <li>
-                  <Link href="/doctors">Doctors</Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </nav>
@@ -147,7 +147,7 @@ const Header = () => {
             <div className="hidden justify-end lg:flex lg:flex-1">
               <Link
                 href="/appointment"
-                className="inline-flex items-center rounded-lg bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 font-medium shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-600/30"
+                className="inline-flex items-center rounded-lg text-sm bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 font-medium shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-600/30"
               >
                 Make an Appointment
               </Link>

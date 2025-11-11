@@ -60,7 +60,7 @@ export default function Departments() {
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-2xl text-center">
           <h2 className="text-3xl font-semibold text-slate-800">
-            Our Departments
+            Our Products
           </h2>
           <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-sky-500" />
           <p className="mt-4 text-slate-600">
