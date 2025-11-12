@@ -5,7 +5,7 @@ import { MdMedicalServices } from "react-icons/md";
 
 export default function ServicesStrip() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 ">
+    <section className="grid grid-cols-1 lg:grid-cols-3 ">
       {/* Card 1 */}
       <article className="bg-[#83C4FF] text-white/95">
         <div className=" mx-2 md:mx-16 px-6 py-12">

@@ -98,13 +98,15 @@ const Header = () => {
         >
           <div className="flex justify-between gap-3 py-3 px-4 mx-2 items-center md:mx-16">
             {/* Logo */}
-            <div className="relative w-40 aspect-10/2 flex items-center justify-start lg:flex-1 md:w-60">
+            <div className="relative flex items-center justify-start lg:flex-1">
               <Link href="/">
                 <Image
                   src="/logopc.png"
                   alt="Logo"
-                  fill
-                  className="object-contain"
+                  width={240}
+                  height={30}
+                  sizes="(max-width: 640px) 100px, (max-width: 1024px) 150px, 240px"
+                  className="h-auto w-40 md:w-50 lg:w-60 object-contain"
                   priority
                 />
               </Link>
