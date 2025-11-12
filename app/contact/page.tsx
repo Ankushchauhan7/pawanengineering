@@ -118,7 +118,7 @@ export default function ContactPage() {
           </div>
 
           {/* Socials */}
-          <div className="mt-6 flex gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <a
               href="https://linkedin.com"
               target="_blank"

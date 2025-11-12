@@ -3,6 +3,15 @@ import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+  variable: "--font-poppins",
+  display: "swap",
+  preload: true,
+});
 
 export const metadata: Metadata = {
   title: "Pawan Engineering – AAYUMED",
@@ -20,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-poppins`}>
+      <body className={poppins.className}>
         <div className="relative max-w-7xl mx-auto">
           <Header />
           <main>{children}</main>
