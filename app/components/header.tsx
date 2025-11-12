@@ -117,7 +117,7 @@ const Header = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/department">Products</Link>
+                  <Link href="/products">Products</Link>
                 </li>
                 <li>
                   <Link href="/about">About Us</Link>
@@ -162,7 +162,7 @@ const Header = () => {
           >
             <nav className="bg-white border-t border-gray-100 px-4 py-3">
               <ul className="flex flex-col gap-4 text-gray-800">
-                {["Home", "Department", "Doctors", "Contact"].map((item) => (
+                {["Home", "Products", "About", "Contact"].map((item) => (
                   <li key={item}>
                     <Link
                       href={`/${item.toLowerCase()}`}
