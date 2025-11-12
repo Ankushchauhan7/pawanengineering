@@ -19,9 +19,9 @@ const EmergencySection = () => {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
-          <h3 className="text-2xl sm:text-3xl font-semibold mb-2">
+          <h5 className="text-2xl sm:text-3xl font-semibold mb-2">
             For Any Emergency Contact
-          </h3>
+          </h5>
           <p className="text-white/90 mb-5">
             Esteem spirit temper too say adieus.
           </p>
@@ -45,9 +45,9 @@ const EmergencySection = () => {
         <div className="absolute inset-0 bg-sky-500/80" />
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
-          <h3 className="text-2xl sm:text-3xl font-semibold mb-2">
+          <h5 className="text-2xl sm:text-3xl font-semibold mb-2">
             Make an Online Appointment
-          </h3>
+          </h5>
           <p className="text-white/90 mb-5">
             Esteem spirit temper too say adieus.
           </p>

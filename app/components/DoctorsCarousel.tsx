@@ -60,7 +60,7 @@ export default function DoctorsCarousel() {
       <div className="px-4">
         {/* Header */}
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-2xl font-semibold text-slate-800">Expert Doctors</h2>
+          <h4 className="text-2xl font-semibold text-slate-800">Expert Doctors</h4>
           <div className="hidden sm:flex items-center gap-2">
             <button
               aria-label="Previous"
@@ -102,7 +102,7 @@ export default function DoctorsCarousel() {
                 />
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-base font-semibold text-slate-800">{d.name}</h3>
+                <h4 className="text-base font-semibold text-slate-800">{d.name}</h4>
                 <p className="text-sm text-slate-500">{d.role}</p>
               </div>
             </article>

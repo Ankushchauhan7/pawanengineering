@@ -57,7 +57,7 @@ export default function Footer() {
 
           {/* Departments */}
           <div>
-            <h3 className="text-2xl font-semibold text-white">Departments</h3>
+            <h6 className="text-2xl font-semibold text-white">Departments</h6>
             <ul className="mt-6 space-y-4">
               <li>
                 <Link href="#" className="hover:text-white">
@@ -89,7 +89,7 @@ export default function Footer() {
 
           {/* Useful Links */}
           <div>
-            <h3 className="text-2xl font-semibold text-white">Useful Links</h3>
+            <h6 className="text-2xl font-semibold text-white">Useful Links</h6>
             <ul className="mt-6 space-y-4">
               <li>
                 <Link href="/about" className="hover:text-white">
@@ -116,7 +116,7 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h3 className="text-2xl font-semibold text-white">Address</h3>
+            <h6 className="text-2xl font-semibold text-white">Address</h6>
             <ul className="mt-6 space-y-4">
               <li className="text-neutral-400">
                 Khasra No.509, United Paradise, behind Krishnagar Restaurant,

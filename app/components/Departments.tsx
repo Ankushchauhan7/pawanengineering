@@ -59,9 +59,9 @@ export default function Departments() {
       <div className="mx-2 md:mx-16 px-4">
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold text-slate-800">
+          <h3 className="text-3xl font-semibold text-slate-800">
             Our Products
-          </h2>
+          </h3>
           <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-sky-500" />
           <p className="mt-4 text-slate-600">
             Esteem spirit temper too say adieus who direct esteem. It esteems
