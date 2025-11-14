@@ -14,11 +14,43 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Pawan Engineering – AAYUMED",
-  description: "Medical engineering products and services",
+  metadataBase: new URL("https://pawanengineering.in"),
+  title: "Pawan Aayumed | Medical Equipment & Hospital Furniture",
+  description:
+    "Premium medical equipment, ICU beds, hospital furniture, and surgical instruments. ISO certified quality since 1995.",
+  keywords: [
+    "ICU beds",
+    "hospital furniture",
+    "medical equipment",
+    "surgical instruments",
+  ],
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-icon.png",
+  },
+  openGraph: {
+    title: "Pawan Aayumed | Medical Equipment & Hospital Furniture",
+    description:
+      "Premium medical equipment, ICU beds, hospital furniture, and surgical instruments.",
+    type: "website",
+    locale: "en_IN",
+    url: "https://pawanengineering.in",
+    siteName: "Pawan Aayumed",
+    images: [
+      {
+        url: "/icon01.png", // Add an image to /public/og-image.png
+        width: 1200,
+        height: 630,
+        alt: "Pawan Aayumed",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pawan Aayumed",
+    description:
+      "Premium medical equipment & hospital furniture",
+    images: ["/icon01.png"],
   },
 };
 

@@ -8,7 +8,7 @@
 
 export default function AboutPage() {
   return (
-    <div className=" mx-2 md:mx-16 space-y-16 py-10">
+    <div className="mx-2 md:mx-16 space-y-16 py-10">
       {/* Hero */}
       <section className="rounded-2xl bg-sky-50/50 p-8 md:p-12">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">

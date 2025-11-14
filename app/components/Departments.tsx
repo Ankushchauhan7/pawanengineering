@@ -59,7 +59,7 @@ export default function Departments() {
       <div className="mx-2 md:mx-16 px-4">
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <h3 className="text-3xl font-semibold text-slate-800">
+          <h3 className="text-slate-800">
             Our Products
           </h3>
           <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-sky-500" />
@@ -88,7 +88,7 @@ export default function Departments() {
               </div>
 
               <div className="p-5">
-                <h3 className="text-lg font-semibold text-slate-800">
+                <h3 className="text-slate-800">
                   {d.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-600">

@@ -14,7 +14,7 @@ export default function ServicesStrip() {
               <FiMonitor className="text-white" size={20} />
             </span>
             <div>
-              <h2 className="text-xl font-semibold text-white">Hospitality</h2>
+              <h2 className="text-white">Hospitality</h2>
               <p className="mt-2 text-white/85">
                 Clinical excellence must be the priority for any health care
                 service provider.
@@ -38,7 +38,7 @@ export default function ServicesStrip() {
               <FiPhoneCall className="text-white" size={20} />
             </span>
             <div>
-              <h2 className="text-xl font-semibold">Emergency Care</h2>
+              <h2 className="text-white">Emergency Care</h2>
               <p className="mt-2 text-white/90">
                 Clinical excellence must be the priority for any health care
                 service provider.
@@ -62,9 +62,7 @@ export default function ServicesStrip() {
               <MdMedicalServices className="text-white" size={20} />
             </span>
             <div>
-              <h2 className="text-xl font-semibold text-white">
-                Chamber Service
-              </h2>
+              <h2 className=" text-white">Chamber Service</h2>
               <p className="mt-2 text-white/85">
                 Clinical excellence must be the priority for any health care
                 service provider.
