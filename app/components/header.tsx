@@ -113,13 +113,16 @@ const Header = () => {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex lg:flex-2 text-sm">
+            <nav className="hidden lg:flex lg:flex-2 text-sm ">
               <ul className="lg:flex lg:flex-1 lg:justify-evenly lg:items-center gap-3">
                 <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li>
                   <Link href="/products">Products</Link>
+                </li>
+                <li>
+                  <Link href="/products">Repairs and parts</Link>
                 </li>
                 <li>
                   <Link href="/about">About Us</Link>
@@ -146,14 +149,14 @@ const Header = () => {
             </div>
 
             {/* Desktop CTA */}
-            <div className="hidden justify-end lg:flex lg:flex-1">
+            {/* <div className="hidden justify-end lg:flex lg:flex-1">
               <Link
                 href="/appointment"
                 className="inline-flex items-center rounded-lg text-sm bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 font-medium shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-600/30"
               >
                 Make an Appointment
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* --- Mobile Nav Dropdown --- */}

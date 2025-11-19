@@ -1,8 +1,7 @@
 "use client";
-import Link from "next/link";
-import Image from "next/image";
 import products from "@/data.json";
 import { useState } from "react";
+import ProductCard from "../components/ProductCard";
 
 export default function ProductsPage() {
   // Collect unique categories
@@ -59,41 +58,9 @@ export default function ProductsPage() {
             </h1>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-8">
               {visibleProducts.map((product: any) => (
-                <Link
-                  key={product.id}
-                  href={`/products/${product.id}`}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition group"
-                >
-                  <div className="relative aspect-square bg-gray-100">
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-contain p-4 group-hover:scale-105 transition mix-blend-multiply"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-[10px] font-semibold bg-blue-100 text-blue-700 px-2 py-1 rounded">
-                        {product.model}
-                      </span>
-                      <span className="text-xs text-gray-500">
-                        {product.type}
-                      </span>
-                    </div>
-                    <h3 className="font-semibold text-gray-900 line-clamp-2 mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-sm text-gray-600 line-clamp-1 mb-3">
-                      {product.description}
-                    </p>
-                    <p className="text-blue-600 font-semibold">
-                      {product.price}
-                    </p>
-                  </div>
-                </Link>
+                <ProductCard key={product.id} product={product} />
               ))}
+
               {visibleProducts.length === 0 && (
                 <div className="col-span-full text-center text-gray-400">
                   No products found in this category.

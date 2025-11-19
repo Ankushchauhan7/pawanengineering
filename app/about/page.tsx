@@ -4,27 +4,42 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="rounded-2xl bg-sky-50/50 p-8 md:p-12">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">
-          Pawan Engineering Works <span className="text-sky-600">AAYU</span>
-          <span className="text-[#009999]">MED</span>
+          Pawan Engineering Works
         </h1>
-        <p className="mt-4  text-slate-600">
-          Established in 2006, we are a Small-scale Industry (SSI) specializing
-          in the manufacture of Medical Devices in compliance with MDR 2017. Our
-          product range includes ICU bed, fowler beds, transfer trolleys, ward
-          care products, OB/GYN products, operating tables, operating lights,
-          operating room products, CSSD stainless steel furniture, and related
-          accessories. Our team possesses the technical expertise and resources
-          necessary to manufacture high-quality products and provide prompt
-          after-sales service. We believe in providing quality products and
-          services to our customers and conduct our business in a most
-          professional and ethical manner with a long-term perspective. We
-          follow a strict Quality Control (QC) process, from raw materials
-          through various processes to semi-finished goods and finished goods,
-          and on-site QC. We are an ISO certified company having ISO:9001-2015,
-          ISO: 13485-2016, ISO:14001-2015, ISO: 45001-2018 and CE compliance.
-          Our customers consist of the Government. Institutions, Private
-          Hospitals, and Dealers.
-        </p>
+        <div className="space-y-4 pt-4 text-slate-600 leading-relaxed max-w-4xl">
+          <p>
+            Established in 2006, we are a Small-scale Industry (SSI)
+            specializing in the manufacture of Medical Devices in compliance
+            with MDR 2017. Our product range includes ICU bed, fowler beds,
+            transfer trolleys, ward care products, OB/GYN products, operating
+            tables, operating lights, operating room products, CSSD stainless
+            steel furniture, and related accessories.
+          </p>
+
+          <p>
+            Our team possesses the technical expertise and resources necessary
+            to manufacture high-quality products and provide prompt after-sales
+            service.
+          </p>
+
+          <p>
+            We believe in providing quality products and services to our
+            customers and conduct our business in a most professional and
+            ethical manner with a long-term perspective.
+          </p>
+
+          <p>
+            We follow a strict Quality Control (QC) process, from raw materials
+            through various processes to semi-finished goods and finished goods,
+            and on-site QC. We are an ISO certified company having
+            ISO:9001-2015, ISO: 13485-2016, ISO:14001-2015, ISO: 45001-2018 and
+            CE compliance.
+          </p>
+          <p>
+            Our customers consist of the Government. Institutions, Private
+            Hospitals, and Dealers.
+          </p>
+        </div>
       </section>
 
       {/* Mission / Values */}

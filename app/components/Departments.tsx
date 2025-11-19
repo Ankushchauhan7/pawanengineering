@@ -59,13 +59,10 @@ export default function Departments() {
       <div className="mx-2 md:mx-16 px-4">
         {/* Heading */}
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <h3 className="text-slate-800">
-            Our Products
-          </h3>
+          <h3 className="text-slate-800">Our Products</h3>
           <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-sky-500" />
           <p className="mt-4 text-slate-600">
-            Esteem spirit temper too say adieus who direct esteem. It esteems
-            luckily or picture placing drawing.
+            Manufacture of medical furniture and hospital equipment
           </p>
         </div>
 
@@ -76,7 +73,7 @@ export default function Departments() {
               key={d.title}
               className="overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-slate-100 transition hover:shadow-md focus-within:shadow-md"
             >
-              <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl">
+              <div className="relative aspect-16/10 w-full overflow-hidden rounded-xl">
                 <Image
                   src={d.image}
                   alt={d.title}
@@ -88,9 +85,7 @@ export default function Departments() {
               </div>
 
               <div className="p-5">
-                <h3 className="text-slate-800">
-                  {d.title}
-                </h3>
+                <h3 className="text-slate-800">{d.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-600">
                   {d.desc}
                 </p>
