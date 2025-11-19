@@ -77,11 +77,11 @@ const Header = () => {
           <ul className="flex flex-col items-center gap-1 lg:gap-14 sm:flex sm:flex-row">
             <li className="flex items-center gap-2 text-xs  text-[#C7C7C7] sm:text-sm">
               <MdEmail className="text-blue-300" fontSize={15} />
-              info@pawanengineering.com
+              info@pawanengineering.in
             </li>
             <li className="flex items-center gap-2 text-xs text-[#C7C7C7] sm:text-sm">
-              <FaPhoneAlt className="text-blue-300" fontSize={15} /> +91
-              7736077740
+              <FaPhoneAlt className="text-blue-300" fontSize={15} /> +91-
+              9810368018, +91-9412622300
             </li>
           </ul>
         </div>

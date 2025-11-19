@@ -101,7 +101,7 @@ export default function ProductDetail({
                 </p>
                 <p className="text-sm text-gray-600">📞 +91 7736077740</p>
                 <p className="text-sm text-gray-600">
-                  📧 info@pawanengineering.com
+                  📧 info@pawanengineering.in
                 </p>
               </div>
             </div>

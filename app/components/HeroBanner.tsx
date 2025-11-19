@@ -25,7 +25,7 @@ const HeroBanner = () => {
       {/* Content */}
       <div className="mx-2 px-4 py-20 md:mx-16 sm:py-20 lg:py-28">
         <div className="max-w-2xl text-white">
-          <h1>Precision Medical Engineering for Better Care</h1>
+          <h1>Precision for Better Care</h1>
 
           <p className="mt-4 text-base  sm:text-lg text-white/90">
             ICU beds, CSSD equipment, and hospital furniture engineered by Pawan

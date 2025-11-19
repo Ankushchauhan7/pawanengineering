@@ -1,41 +1,42 @@
-// import type { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//   title: "About — Pawan Engineering AAYUMED",
-//   description:
-//     "ICU beds, CSSD equipment, and hospital furniture engineered for better care.",
-// };
-
 export default function AboutPage() {
   return (
     <div className="mx-2 md:mx-16 space-y-16 py-10">
       {/* Hero */}
       <section className="rounded-2xl bg-sky-50/50 p-8 md:p-12">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">
-          About Pawan Engineering <span className="text-sky-600">AAYU</span>
+          Pawan Engineering Works <span className="text-sky-600">AAYU</span>
           <span className="text-[#009999]">MED</span>
         </h1>
-        <p className="mt-4 max-w-3xl text-slate-600">
-          We design and manufacture dependable hospital furniture and medical
-          engineering solutions—ICU beds, patient transfer systems, examination
-          & OT utilities—built for safety, longevity, and smooth caregiving.
+        <p className="mt-4  text-slate-600">
+          Established in 2006, we are a Small-scale Industry (SSI) specializing
+          in the manufacture of Medical Devices in compliance with MDR 2017. Our
+          product range includes ICU bed, fowler beds, transfer trolleys, ward
+          care products, OB/GYN products, operating tables, operating lights,
+          operating room products, CSSD stainless steel furniture, and related
+          accessories. Our team possesses the technical expertise and resources
+          necessary to manufacture high-quality products and provide prompt
+          after-sales service. We believe in providing quality products and
+          services to our customers and conduct our business in a most
+          professional and ethical manner with a long-term perspective. We
+          follow a strict Quality Control (QC) process, from raw materials
+          through various processes to semi-finished goods and finished goods,
+          and on-site QC. We are an ISO certified company having ISO:9001-2015,
+          ISO: 13485-2016, ISO:14001-2015, ISO: 45001-2018 and CE compliance.
+          Our customers consist of the Government. Institutions, Private
+          Hospitals, and Dealers.
         </p>
       </section>
 
       {/* Mission / Values */}
-      <section className="grid gap-6 md:grid-cols-3">
+      <section className="grid gap-6 md:grid-cols-2">
         {[
           {
             t: "Our Mission",
-            d: "Deliver precise, reliable products that raise clinical efficiency and patient comfort.",
+            d: "Our mission is to manufacture superior medical devices through technical expertise, rigorous quality control, and ethical business practices. We are committed to serving our customers and patients with products that meet global standards, ensuring safety, durability, and prompt after-sales service. Our goal is to contribute to better healthcare outcomes by focusing on continuous improvement, compliance, and customer satisfaction",
           },
           {
             t: "Quality",
-            d: "ISO-grade processes, premium materials (SS304 where required), and robust finishes.",
-          },
-          {
-            t: "Support",
-            d: "Responsive pre-sales guidance and after-sales service across India.",
+            d: "To be a trusted leader in the medical device industry, known for delivering innovative, reliable, and high-quality solutions that enhance patient care and support the evolving needs of healthcare institutions.",
           },
         ].map((i) => (
           <article
@@ -65,7 +66,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline / Story */}
-      <section className="space-y-6">
+      {/* <section className="space-y-6">
         <h2 className="text-2xl font-semibold text-slate-800">Our Story</h2>
         <div className="grid gap-4 md:grid-cols-2">
           <p className="text-slate-600">
@@ -79,10 +80,10 @@ export default function AboutPage() {
             tough daily duty cycles.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
-      <section className="rounded-xl bg-sky-600 p-6 text-white">
+      {/* <section className="rounded-xl bg-sky-600 p-6 text-white">
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
           <div>
             <h3 className="text-xl font-semibold">
@@ -99,7 +100,7 @@ export default function AboutPage() {
             Contact Us
           </a>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

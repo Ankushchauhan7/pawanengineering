@@ -15,7 +15,13 @@ export default function ContactPage() {
           Contact Us
         </h1>
         <p className="mt-3 text-slate-600">
-          We’d love to hear from you. Send a message or use the details below.
+          You may send us a message in the optin message bar below by providing
+          your name, email ID, contact number and brief particulars of your
+          requirement which we will respond at the earliest opprtunity.
+          Alternatively, you may call us directly on the telephone numbers
+          mentioned below or send us a email by providing your name, email ID,
+          contact number and particulars of your requirement which we will
+          respond immediately.
         </p>
       </section>
 
@@ -93,15 +99,15 @@ export default function ContactPage() {
           <ul className="mt-4 space-y-3 text-slate-700">
             <li>
               <span className="font-medium">Email:</span>{" "}
-              info@pawanengineering.com
+              info@pawanengineering.in
             </li>
             <li>
-              <span className="font-medium">Phone:</span> +91 7736077740
+              <span className="font-medium">Phone:</span> +91- 9810368018, +91-9412622300 
             </li>
             <li className="text-slate-600">
               <span className="font-medium text-slate-700">Address:</span>{" "}
               Khasra No.509, United Paradise, behind Krishnagar Restaurant,
-              Ganga Nahar, Meerut Road, Murad Nagar, Ghaziabad-201206, (UP),
+              Ganga Nahar, Meerut Road, Murad Nagar, Ghaziabad-201206, (Uttar Pradesh),
               India
             </li>
           </ul>

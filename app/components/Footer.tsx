@@ -20,9 +20,9 @@ export default function Footer() {
               />
             </Link>
 
-            <p className="mt-6 max-w-sm leading-relaxed text-neutral-400">
+            {/* <p className="mt-6 max-w-sm leading-relaxed text-neutral-400">
               Firmament morning sixth subdue darkness creeping gathered divide.
-            </p>
+            </p> */}
 
             <div className="mt-8 flex items-center gap-4">
               <a
@@ -57,39 +57,35 @@ export default function Footer() {
 
           {/* Departments */}
           <div>
-            <h6 className="text-2xl font-semibold text-white">Departments</h6>
+            <h6 className=" text-white">Manufacuring</h6>
             <ul className="mt-6 space-y-4">
               <li>
                 <Link href="#" className="hover:text-white">
-                  Eye Care
+                  Quality control
                 </Link>
               </li>
               <li>
                 <Link href="#" className="hover:text-white">
-                  Skin Care
+                  After sales services
                 </Link>
               </li>
               <li>
                 <Link href="#" className="hover:text-white">
-                  Pathology
+                  Warranty
                 </Link>
               </li>
               <li>
                 <Link href="#" className="hover:text-white">
-                  Medicine
+                  Refurbishing
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-white">
-                  Dental
-                </Link>
-              </li>
+              
             </ul>
           </div>
 
           {/* Useful Links */}
           <div>
-            <h6 className="text-2xl font-semibold text-white">Useful Links</h6>
+            <h6 className=" text-white">Useful Links</h6>
             <ul className="mt-6 space-y-4">
               <li>
                 <Link href="/about" className="hover:text-white">
@@ -116,11 +112,11 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h6 className="text-2xl font-semibold text-white">Address</h6>
+            <h6 className="text-white">Address</h6>
             <ul className="mt-6 space-y-4">
               <li className="text-neutral-400">
                 Khasra No.509, United Paradise, behind Krishnagar Restaurant,
-                Ganga Nahar, Meerut Road, Murad Nagar,Ghaziabad-201206, (UP),
+                Ganga Nahar, Meerut Road, Murad Nagar,Ghaziabad-201206, (Uttar Pradesh),
                 India
               </li>
               <li>
@@ -130,10 +126,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@pawanengineering.com"
+                  href="mailto:info@pawanengineering.in"
                   className="hover:text-white"
                 >
-                  info@pawanengineering.com
+                  info@pawanengineering.in
                 </a>
               </li>
             </ul>
@@ -144,10 +140,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10 mx-2 md:mx-16">
         <div className="mx-auto max-w-7xl px-4 py-5 text-sm text-neutral-400 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>
-            © 2025 Pawan Engineering Works. All rights
-            reserved.
-          </p>
+          <p>© 2025 Pawan Engineering Works. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="hover:text-white">
               Privacy
