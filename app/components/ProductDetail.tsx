@@ -99,7 +99,7 @@ export default function ProductDetail({
                 <p className="text-sm font-semibold text-gray-900 mb-2">
                   Quick Contact
                 </p>
-                <p className="text-sm text-gray-600">📞 +91 7736077740</p>
+                <p className="text-sm text-gray-600">📞 +91 9810368018, +91 9412622300</p>
                 <p className="text-sm text-gray-600">
                   📧 info@pawanengineering.in
                 </p>

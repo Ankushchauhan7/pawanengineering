@@ -7,17 +7,19 @@ export default function Footer() {
   return (
     <footer className="bg-[#141414] text-neutral-300">
       <div className=" px-4 py-14 mx-2 md:mx-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2">
-              <Image
-                src="/logopc.png" // 40x40 (put in /public/assets/)
-                alt="Docmed"
-                width={200}
-                height={90}
-                className="rounded-md"
-              />
+              <div className="flex flex-col leading-tight">
+                <span className="text-base md:text-lg font-bold text-white">
+                  Pawan Engineering Works
+                </span>
+                <span className="text-base md:text-lg font-bold">
+                  <span className="text-blue-700">AAYU</span>
+                  <span className="text-cyan-500">MED</span>
+                </span>
+              </div>
             </Link>
 
             {/* <p className="mt-6 max-w-sm leading-relaxed text-neutral-400">
@@ -79,7 +81,57 @@ export default function Footer() {
                   Refurbishing
                 </Link>
               </li>
-              
+            </ul>
+          </div>
+          {/* Departments */}
+          <div>
+            <h6 className=" text-white">Products</h6>
+            <ul className="mt-6 space-y-4">
+              <li>
+                <Link href="#" className="hover:text-white">
+                  ICU Beds
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Room & Ward Care
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Emergency Transfer
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Examination Room
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Treatment Devices
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Biomedical Waste
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Utility
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  Operation Room
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white">
+                  OB/GYN
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -98,13 +150,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white">
-                  Contact
+                <Link href="/appointment" className="hover:text-white">
+                  Tech Document
                 </Link>
               </li>
               <li>
-                <Link href="/appointment" className="hover:text-white">
-                  Appointment
+                <Link href="/contact" className="hover:text-white">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -116,12 +168,14 @@ export default function Footer() {
             <ul className="mt-6 space-y-4">
               <li className="text-neutral-400">
                 Khasra No.509, United Paradise, behind Krishnagar Restaurant,
-                Ganga Nahar, Meerut Road, Murad Nagar,Ghaziabad-201206, (Uttar Pradesh),
-                India
+                Ganga Nahar, Meerut Road, Murad Nagar,Ghaziabad-201206, (Uttar
+                Pradesh), India
               </li>
               <li>
-                <a href="tel:+103674678934" className="hover:text-white">
-                  +91 7736077740
+                <a href="tel:+919810368018" className="hover:text-white">
+                  +91- 9810368018
+                  <br />
+                  +91-9412622300
                 </a>
               </li>
               <li>

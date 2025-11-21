@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div className="mx-2 md:mx-16 space-y-12 py-10">
       {/* Heading */}
-      <section className="text-center">
+      <section className="text-left">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">
           Contact Us
         </h1>
@@ -62,7 +62,7 @@ export default function ContactPage() {
               <input
                 type="tel"
                 className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-sky-500/30"
-                placeholder="+91 7736077740"
+                placeholder="+91 12345567"
               />
             </div>
             <div className="sm:col-span-2">

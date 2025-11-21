@@ -821,74 +821,8 @@
     "optional_accessories": [],
     "image": "/products/PEW-4425.png"
   },
-  {
-    "id": 32,
-    "model": "PEW-4430",
-    "name": "IV Stand MS Tube SS Rod With Wheel",
-    "category": "Room & Ward Care",
-    "type": "Stand",
-    "description": "IV stand with MS tube and SS rod with optional wheel",
-    "price": "Contact for Quote",
-    "features": [
-      "IV rod made of SS 304",
-      "MS tube frame",
-      "Optional wheels"
-    ],
-    "specifications": {},
-    "optional_accessories": [
-      "Wheels"
-    ],
-    "image": "/products/PEW-4430.png"
-  },
-  {
-    "id": 33,
-    "model": "PEW-4435",
-    "name": "IV/ Saline Stand MS Base MS Tube",
-    "category": "Room & Ward Care",
-    "type": "Stand",
-    "description": "IV stand with MS base and MS tube",
-    "price": "Contact for Quote",
-    "features": [
-      "IV rod made of SS 304",
-      "MS base and tube"
-    ],
-    "specifications": {},
-    "optional_accessories": [],
-    "image": "/products/PEW-4435.png"
-  },
-  {
-    "id": 34,
-    "model": "PEW-4440",
-    "name": "IV/Saline Stand (Full SS304)",
-    "category": "Room & Ward Care",
-    "type": "Stand",
-    "description": "IV stand fully made of SS304",
-    "price": "Contact for Quote",
-    "features": [
-      "Full SS304 construction"
-    ],
-    "specifications": {},
-    "optional_accessories": [],
-    "image": "/products/PEW-4440.png"
-  },
-  {
-    "id": 35,
-    "model": "PEW-4445",
-    "name": "IV Stand SS304 With Wheel",
-    "category": "Room & Ward Care",
-    "type": "Stand",
-    "description": "IV stand made of SS304 with optional wheel",
-    "price": "Contact for Quote",
-    "features": [
-      "SS304 construction",
-      "Optional wheel"
-    ],
-    "specifications": {},
-    "optional_accessories": [
-      "Wheels"
-    ],
-    "image": "/products/PEW-4445.png"
-  },
+  
+ 
   {
     "id": 36,
     "model": "PEW-4475",
@@ -929,22 +863,7 @@
     "optional_accessories": [],
     "image": "/products/PEW-4485.png"
   },
-  {
-    "id": 38,
-    "model": "PEW-4490",
-    "name": "Foot Step Double SS 304",
-    "category": "Room & Ward Care",
-    "type": "Utility",
-    "description": "Double SS304 foot step",
-    "price": "Contact for Quote",
-    "features": [
-      "Double steps made of SS304 sheet",
-      "Leg frame made of SS304 round tube"
-    ],
-    "specifications": {},
-    "optional_accessories": [],
-    "image": "/products/PEW-4490.png"
-  },
+ 
   {
     "id": 39,
     "model": "PEW-1910",
@@ -1387,145 +1306,7 @@
     ],
     "image": "/products/PEW-3600.png"
   },
-  {
-    "id": 57,
-    "model": "PEW-3610",
-    "name": "Cylinder Trolley MS",
-    "category": "Utility",
-    "type": "Trolley",
-    "description": "Cylinder trolley made of CRCA MS",
-    "price": "Contact for Quote",
-    "features": [
-      "Base made of CRCA MS sheet",
-      "Tubular frame structure made of CRCA MS round tubes",
-      "Two \u00d8100mm castors"
-    ],
-    "specifications": {
-      "Length": "355mm",
-      "Width": "320mm",
-      "Height": "1160mm"
-    },
-    "optional_accessories": [],
-    "image": "/products/PEW-3610.png"
-  },
-  {
-    "id": 58,
-    "model": "PEW-3615",
-    "name": "Cylinder Trolley MS With SS304 Base",
-    "category": "Utility",
-    "type": "Trolley",
-    "description": "Cylinder trolley with SS304 base",
-    "price": "Contact for Quote",
-    "features": [
-      "Base made of SS304 sheet",
-      "Tubular frame structure made of CRCA MS round tubes",
-      "Two \u00d8100mm castors mounted on SS Base"
-    ],
-    "specifications": {
-      "Length": "355mm",
-      "Width": "320mm",
-      "Height": "1160mm"
-    },
-    "optional_accessories": [],
-    "image": "/products/PEW-3615.png"
-  },
-  {
-    "id": 59,
-    "model": "PEW-3620",
-    "name": "Cylinder Trolley SS304",
-    "category": "Utility",
-    "type": "Trolley",
-    "description": "Cylinder trolley made of SS304",
-    "price": "Contact for Quote",
-    "features": [
-      "Base made of SS304 sheet",
-      "Tubular frame structure made of SS304 round tubes",
-      "Two \u00d8100mm castors"
-    ],
-    "specifications": {
-      "Length": "355mm",
-      "Width": "320mm",
-      "Height": "1160mm"
-    },
-    "optional_accessories": [],
-    "image": "/products/PEW-3620.png"
-  },
-  {
-    "id": 60,
-    "model": "PEW-3900",
-    "name": "Instrument Trolley SS304 (17\" L X 14\" W X 35.5\" H)",
-    "category": "Operation Room",
-    "type": "Trolley",
-    "description": "Instrument trolley made of SS304 with two shelves",
-    "price": "Contact for Quote",
-    "features": [
-      "Instrument trolley made of SS304 tubes and sheets",
-      "Two shelves made of SS304 sheet",
-      "Protective side railings of \u00d88mm SS304 rods",
-      "Frame made of stainless steel 304 25x25mm square tubes"
-    ],
-    "specifications": {
-      "Length": "432mm",
-      "Width": "355mm",
-      "Height": "900mm",
-      "Castors": "100mm diameter single wheel plastic swivel"
-    },
-    "optional_accessories": [
-      "3 shelves",
-      "SS304 tray"
-    ],
-    "image": "/products/PEW-3900.png"
-  },
-  {
-    "id": 61,
-    "model": "PEW-3910",
-    "name": "Instrument Trolley SS304 (24\" L X 18\" W X 35.5\" H)",
-    "category": "Operation Room",
-    "type": "Trolley",
-    "description": "Instrument trolley made of SS304 with two shelves",
-    "price": "Contact for Quote",
-    "features": [
-      "Instrument trolley made of SS304 tubes and sheets",
-      "Two shelves made of SS304 sheet",
-      "Protective side railings",
-      "Frame made of stainless steel 304 square tubes"
-    ],
-    "specifications": {
-      "Length": "610mm",
-      "Width": "460mm",
-      "Height": "900mm"
-    },
-    "optional_accessories": [
-      "3 shelves",
-      "SS304 tray"
-    ],
-    "image": "/products/PEW-3910.png"
-  },
-  {
-    "id": 62,
-    "model": "PEW-3920",
-    "name": "Instrument Trolley SS304 (30\" L X 18\" W X 35.4\" H)",
-    "category": "Operation Room",
-    "type": "Trolley",
-    "description": "Large instrument trolley made of SS304",
-    "price": "Contact for Quote",
-    "features": [
-      "Instrument trolley made of SS304 tubes and sheets",
-      "Two shelves made of SS304 sheet",
-      "Protective side railings",
-      "Frame made of stainless steel 304 25x25mm square tubes"
-    ],
-    "specifications": {
-      "Length": "762mm",
-      "Width": "460mm",
-      "Height": "900mm"
-    },
-    "optional_accessories": [
-      "3 shelves",
-      "SS304 tray"
-    ],
-    "image": "/products/PEW-3920.png"
-  },
+  
   {
     "id": 63,
     "model": "PEW-4300",
@@ -1579,31 +1360,7 @@
     ],
     "image": "/products/PEW-2120.png"
   },
-  {
-    "id": 65,
-    "model": "PEW-2135",
-    "name": "Gynae Examination Table SS 304",
-    "category": "OB/GYN",
-    "type": "Table",
-    "description": "Gynae examination table with SS304 frame",
-    "price": "Contact for Quote",
-    "features": [
-      "Backrest position achieved by Ratchet Mechanism",
-      "Two sectional top made of SS304 sheet",
-      "SS tubular frame",
-      "Provided with perineal cut",
-      "IV Stand Provision"
-    ],
-    "specifications": {
-      "Length": "1860mm",
-      "Width": "540mm",
-      "Height": "810mm"
-    },
-    "optional_accessories": [
-      "Mattress 2\" thickness 32 density"
-    ],
-    "image": "/products/PEW-2135.png"
-  },
+  
   {
     "id": 66,
     "model": "PEW-2205",

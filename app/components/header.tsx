@@ -100,15 +100,15 @@ const Header = () => {
             {/* Logo */}
             <div className="relative flex items-center justify-start lg:flex-1">
               <Link href="/">
-                <Image
-                  src="/logopc.png"
-                  alt="Logo"
-                  width={240}
-                  height={30}
-                  sizes="(max-width: 640px) 100px, (max-width: 1024px) 150px, 240px"
-                  className="h-auto w-40 md:w-50 lg:w-60 object-contain"
-                  priority
-                />
+                <div className="flex flex-col leading-tight">
+                  <span className="text-base md:text-2xl font-bold text-black">
+                    Pawan Engineering Works
+                  </span>
+                  <span className="text-base md:text-xl font-bold">
+                    <span className="text-blue-700">AAYU</span>
+                    <span className="text-cyan-500">MED</span>
+                  </span>
+                </div>
               </Link>
             </div>
 
