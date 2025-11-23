@@ -1,10 +1,25 @@
-"use client";
-// import type { Metadata } from "next";
+import SendMessageForm from "../components/SendMessageForm";
+import type { Metadata } from "next";
 
-// export const metadata: Metadata = {
-//   title: "Contact — Pawan Engineering AAYUMED",
-//   description: "Get in touch for product queries, quotes, and support.",
-// };
+export const metadata: Metadata = {
+  title: "Contact Us — Pawan Engineering AAYUMED",
+  description:
+    "Send enquiries, request quotes, or contact Pawan Engineering Works – AAYUMED for premium medical and hospital furniture solutions.",
+  keywords: [
+    "contact",
+    "Pawan Engineering Works",
+    "AAYUMED",
+    "medical equipment enquiry",
+    "hospital furniture manufacturer",
+  ],
+  openGraph: {
+    title: "Contact Pawan Engineering Works – AAYUMED",
+    description:
+      "Reach out to us for ICU beds, ward care products, OT devices, CSSD furniture and more.",
+    url: "https://www.pawanengineering.in/contact",
+    type: "website",
+  },
+};
 
 export default function ContactPage() {
   return (
@@ -27,69 +42,7 @@ export default function ContactPage() {
 
       {/* Grid: Form + Info */}
       <section className="grid gap-8 md:grid-cols-2">
-        {/* Form */}
-        <form
-          className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-100"
-          onSubmit={(e) => e.preventDefault()}
-        >
-          <div className="grid gap-4 sm:grid-cols-2">
-            <div>
-              <label className="block text-sm font-medium text-slate-700">
-                Name
-              </label>
-              <input
-                type="text"
-                required
-                className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-sky-500/30"
-                placeholder="Your name"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-slate-700">
-                Email
-              </label>
-              <input
-                type="email"
-                required
-                className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-sky-500/30"
-                placeholder="you@company.com"
-              />
-            </div>
-            <div className="sm:col-span-2">
-              <label className="block text-sm font-medium text-slate-700">
-                Phone
-              </label>
-              <input
-                type="tel"
-                className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-sky-500/30"
-                placeholder="+91 12345567"
-              />
-            </div>
-            <div className="sm:col-span-2">
-              <label className="block text-sm font-medium text-slate-700">
-                Message
-              </label>
-              <textarea
-                rows={5}
-                required
-                className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-sky-500/30"
-                placeholder="Tell us about your requirement…"
-              />
-            </div>
-          </div>
-
-          <button
-            type="submit"
-            className="mt-5 inline-flex items-center rounded-lg bg-sky-600 px-5 py-2.5 font-medium text-white hover:bg-sky-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-600/30"
-          >
-            Send Message
-          </button>
-
-          <p className="mt-3 text-xs text-slate-500">
-            This is a demo form. Hook it to an API route or service (Formspree,
-            Resend, Nodemailer) for production.
-          </p>
-        </form>
+        <SendMessageForm />
 
         {/* Info block */}
         <aside className="rounded-xl bg-sky-50/50 p-6">
@@ -102,13 +55,14 @@ export default function ContactPage() {
               info@pawanengineering.in
             </li>
             <li>
-              <span className="font-medium">Phone:</span> +91- 9810368018, +91-9412622300 
+              <span className="font-medium">Phone:</span> +91- 9810368018,
+              +91-9412622300
             </li>
             <li className="text-slate-600">
               <span className="font-medium text-slate-700">Address:</span>{" "}
               Khasra No.509, United Paradise, behind Krishnagar Restaurant,
-              Ganga Nahar, Meerut Road, Murad Nagar, Ghaziabad-201206, (Uttar Pradesh),
-              India
+              Ganga Nahar, Meerut Road, Murad Nagar, Ghaziabad-201206, (Uttar
+              Pradesh), India
             </li>
           </ul>
 
@@ -119,7 +73,7 @@ export default function ContactPage() {
               className="h-full w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb="
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3497.0318432954946!2d77.5247966!3d28.7783097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQ2JzQxLjkiTiA3N8KwMzEnMjkuMyJF!5e0!3m2!1sen!2sin!4v1763915051874!5m2!1sen!2sin"
             />
           </div>
 

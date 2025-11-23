@@ -2,19 +2,49 @@
 import { useState } from "react";
 
 export default function QuickEnquiry() {
+  const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
-  };
+
+    setLoading(true);
+    setError("");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const payload = {
+      name: formData.get("name"),
+      phone: formData.get("phone"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const res = await fetch("/api/send-enquiry", {
+        method: "POST",
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error("Failed to send enquiry");
+
+      setSubmitted(true);
+      form.reset();
+
+      setTimeout(() => setSubmitted(false), 3000);
+    } catch (err: any) {
+      setError(err.message);
+    }
+
+    setLoading(false);
+  }
 
   return (
     <section className="py-16 bg-gradient-to-br from-blue-600 to-sky-500 text-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-
           {/* Left Title */}
           <div>
             <h2 className="text-3xl font-bold mb-3">Quick Enquiry</h2>
@@ -37,12 +67,14 @@ export default function QuickEnquiry() {
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
+                  name="name"
                   type="text"
                   placeholder="Your Name"
                   required
                   className="input"
                 />
                 <input
+                  name="phone"
                   type="tel"
                   placeholder="Phone Number"
                   required
@@ -51,6 +83,7 @@ export default function QuickEnquiry() {
               </div>
 
               <input
+                name="email"
                 type="email"
                 placeholder="Email Address"
                 required
@@ -58,6 +91,7 @@ export default function QuickEnquiry() {
               />
 
               <textarea
+                name="message"
                 placeholder="Your Message"
                 required
                 rows={4}
@@ -66,14 +100,23 @@ export default function QuickEnquiry() {
 
               <button
                 type="submit"
-                className="mt-5 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition"
+                disabled={loading}
+                className={`mt-5 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition ${
+                  loading ? "opacity-70 cursor-not-allowed" : ""
+                }`}
               >
-                Send Enquiry
+                {loading ? "Sending..." : "Send Enquiry"}
               </button>
 
               {submitted && (
                 <p className="text-green-600 text-center mt-3 font-semibold">
-                  ✔ Enquiry Sent Successfully!
+                  ✔ Enquiry sent successfully!
+                </p>
+              )}
+
+              {error && (
+                <p className="text-red-600 text-center mt-3 font-semibold">
+                  ❌ {error}
                 </p>
               )}
             </form>

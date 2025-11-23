@@ -10,7 +10,7 @@ import ServicesStrip from "./components/ServicesStrip";
 export default function Home() {
   return (
     <>
-      {/* <HeroBanner /> */}
+      <HeroBanner />
       <FeaturedProducts />
       {/* <ServicesStrip /> */}
       {/* <Departments /> */}
