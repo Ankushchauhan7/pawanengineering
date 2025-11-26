@@ -42,20 +42,32 @@ export default function QuickEnquiry() {
   }
 
   return (
-    <section className="py-16 bg-gradient-to-br from-blue-600 to-sky-500 text-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-16 bg-gradient-to-br from-blue-400 to-sky-500 text-white">
+      <div className="mx-2 md:mx-16">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           {/* Left Title */}
           <div>
             <h2 className="text-3xl font-bold mb-3">Quick Enquiry</h2>
-            <p className="text-white/90 text-sm leading-relaxed">
-              Have questions about our products, pricing, or need urgent assistance?
-              Fill out this quick form and our team will contact you shortly.
-            </p>
+
+            <ul className="mt-4 text-white-600 leading-relaxed space-y-3 list-disc pl-5">
+              <li>
+                If you have a quick enquiry, please send us WhatsApp message on
+                the following numbers, which we will respond immediately
+              </li>
+              <li>
+                Alternatively, you may call us on the following numbers, which
+                we will respond immediately or at the first available opportunity
+                basis.
+              </li>
+            </ul>
 
             <div className="mt-6 bg-white/20 backdrop-blur p-4 rounded-xl inline-block">
-              <p className="text-lg font-semibold">📞 +91 9810368018, +91 9412622300</p>
-              <p className="text-sm text-white/90">Available 9:00 AM – 7:00 PM</p>
+              <p className="text-lg font-semibold">
+                📞 +91 9810368018, +91 9412622300
+              </p>
+              <p className="text-sm text-white/90">
+                Available 9:00 AM – 7:00 PM
+              </p>
             </div>
           </div>
 

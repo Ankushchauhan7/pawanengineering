@@ -2,6 +2,7 @@
 import products from "@/data.json";
 import { useState } from "react";
 import ProductCard from "../components/ProductCard";
+import QuickEnquiry from "../components/QuickEnquiry";
 
 export default function ProductsPage() {
   // Collect unique categories
@@ -70,6 +71,7 @@ export default function ProductsPage() {
           </main>
         </div>
       </div>
+      <QuickEnquiry/>
     </div>
   );
 }

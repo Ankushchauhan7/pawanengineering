@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2">
               <div className="flex flex-col leading-tight">
-                <span className="text-base md:text-lg font-bold text-white">
+                <span className="text-base md:text-xl font-bold text-white">
                   Pawan Engineering Works
                 </span>
                 <span className="text-base md:text-lg font-bold">
@@ -21,10 +21,6 @@ export default function Footer() {
                 </span>
               </div>
             </Link>
-
-            {/* <p className="mt-6 max-w-sm leading-relaxed text-neutral-400">
-              Firmament morning sixth subdue darkness creeping gathered divide.
-            </p> */}
 
             <div className="mt-8 flex items-center gap-4">
               <a
@@ -61,26 +57,12 @@ export default function Footer() {
           <div>
             <h6 className=" text-white">Manufacuring</h6>
             <ul className="mt-6 space-y-4">
-              <li>
-                <Link href="#" className="hover:text-white">
-                  Quality control
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white">
-                  After sales services
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white">
-                  Warranty
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white">
-                  Refurbishing
-                </Link>
-              </li>
+              <li> Own Factory </li>
+              <li>Latest Machineries</li>
+              <li>Experienced staff </li>
+              <li>QC & Certifications</li>
+              <li>Warranty, AMC & CMC</li>
+              <li>18 + years in the industry </li>
             </ul>
           </div>
           {/* Departments */}
@@ -141,22 +123,37 @@ export default function Footer() {
             <ul className="mt-6 space-y-4">
               <li>
                 <Link href="/about" className="hover:text-white">
-                  About
+                  Ex-Stock items
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-white">
-                  Blog
+                <Link href="/coming-soon" className="hover:text-white">
+                  Customization
                 </Link>
               </li>
               <li>
-                <Link href="/appointment" className="hover:text-white">
-                  Tech Document
+                <Link href="/repairs-and-parts" className="hover:text-white">
+                  Repair & Parts
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white">
-                  Contact
+                <Link href="/coming-soon" className="hover:text-white">
+                  Refurbishing
+                </Link>
+              </li>
+              <li>
+                <Link href="/coming-soon" className="hover:text-white">
+                  Quotations & terms
+                </Link>
+              </li>
+              <li>
+                <Link href="/coming-soon" className="hover:text-white">
+                  Technical documents
+                </Link>
+              </li>
+              <li>
+                <Link href="/coming-soon" className="hover:text-white">
+                  FAQ
                 </Link>
               </li>
             </ul>

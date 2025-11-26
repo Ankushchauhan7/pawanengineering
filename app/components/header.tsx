@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import {
   FaLinkedinIn,
@@ -10,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
+import { MAIN_NAV_LINKS, MOBILE_NAV_LINKS } from "../lib/navigation";
 
 const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -113,23 +113,13 @@ const Header = () => {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex lg:flex-2 text-sm ">
+            <nav className="hidden lg:flex lg:flex-2 text-sm">
               <ul className="lg:flex lg:flex-1 lg:justify-evenly lg:items-center gap-3">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/products">Products</Link>
-                </li>
-                <li>
-                  <Link href="/coming-soon">Repairs and parts</Link>
-                </li>
-                <li>
-                  <Link href="/about">About Us</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact Us</Link>
-                </li>
+                {MAIN_NAV_LINKS.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                ))}
               </ul>
             </nav>
 
@@ -147,46 +137,28 @@ const Header = () => {
                 )}
               </button>
             </div>
-
-            {/* Desktop CTA */}
-            {/* <div className="hidden justify-end lg:flex lg:flex-1">
-              <Link
-                href="/appointment"
-                className="inline-flex items-center rounded-lg text-sm bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 font-medium shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-600/30"
-              >
-                Make an Appointment
-              </Link>
-            </div> */}
           </div>
 
           {/* --- Mobile Nav Dropdown --- */}
           <div
             className={`lg:hidden overflow-hidden transition-all duration-300 ${
-              menuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
+              menuOpen ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
             }`}
           >
-            <nav className="bg-white border-t border-gray-100 px-4 py-3">
-              <ul className="flex flex-col gap-4 text-gray-800">
-                {["Home", "Products", "About", "Contact"].map((item) => (
-                  <li key={item}>
+            <nav className="backdrop-blur-md bg-white/80 px-4 py-3 border-t border-slate-200">
+              <ul className="flex flex-col gap-1">
+                {MOBILE_NAV_LINKS.map(({ label, href, icon: Icon }) => (
+                  <li key={href}>
                     <Link
-                      href={`/${item.toLowerCase()}`}
+                      href={href}
                       onClick={() => setMenuOpen(false)}
-                      className="block hover:text-sky-700 transition-colors"
+                      className="flex items-center gap-3 text-sm text-slate-700 px-3 py-2 rounded-md hover:bg-sky-100 transition"
                     >
-                      {item}
+                      {Icon && <Icon className="text-sky-600" size={18} />}
+                      {label}
                     </Link>
                   </li>
                 ))}
-                <li>
-                  <Link
-                    href="/appointment"
-                    onClick={() => setMenuOpen(false)}
-                    className="block rounded-lg bg-sky-600 text-white text-center px-4 py-2 font-medium hover:bg-sky-700 transition"
-                  >
-                    Make an Appointment
-                  </Link>
-                </li>
               </ul>
             </nav>
           </div>

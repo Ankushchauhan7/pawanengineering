@@ -3,7 +3,7 @@
 
 
   h1 {
-    @apply text-lg md:text-xl lg:text-4xl font-bold leading-tight tracking-tight;
+    @apply text-lg md:text-xl lg:text-4xl font-semibold leading-tight ;
   }
 
   h2 {
@@ -23,7 +23,7 @@
   }
 
   h6 {
-    @apply text-base  md:text-xl font-semibold;
+    @apply text-base   font-semibold;
   }
    p {
     @apply text-sm sm:text-base md:text-base lg:text-lg leading-relaxed;

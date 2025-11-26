@@ -135,32 +135,14 @@ export default function HeroBanner() {
 
       {/* Hero content */}
       <div className="px-4 md:px-16 py-20 md:py-28 lg:py-32">
-        <div className="max-w-3xl text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
-            Precision Medical Engineering for Better Care
+        <div className=" text-white">
+          <h1 className=" font-semibold leading-tight">
+            Manufacturer of ICU Beds, Ward Beds, Room and Ward-Care Devices,
+            Emeregency & Transfer Trolleys, Examination Room Devices, Treatment
+            Devices, OB/GYN Devices, Bio-Medical Waste Management Devices,
+            Utility Devices, CSSD Devices, Operation Theatre/ Room Devices, and
+            Repair And Parts
           </h1>
-
-          <p className="mt-4 text-base sm:text-lg text-white/90 max-w-2xl">
-            ICU beds, CSSD equipment, and hospital furniture engineered by Pawan
-            Engineering Works —{" "}
-            <span className="text-sky-300 font-semibold">AAYU</span>
-            <span className="text-emerald-400 font-semibold">MED</span>.
-          </p>
-
-          <div className="mt-8 flex gap-3">
-            <Link
-              href="/products"
-              className="rounded-lg bg-white/10 hover:bg-white/20 px-5 py-3 text-sm font-medium text-white ring-1 ring-white/30 backdrop-blur transition"
-            >
-              Explore Products
-            </Link>
-            <Link
-              href="/contact"
-              className="rounded-lg bg-emerald-500 hover:bg-emerald-600 px-5 py-3 text-sm font-medium text-white transition"
-            >
-              Get a Quote
-            </Link>
-          </div>
         </div>
       </div>
 
