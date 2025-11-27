@@ -106,28 +106,6 @@ export default function ContactPage() {
           </div>
         </aside>
       </section>
-
-      {/* FAQ (optional) */}
-      <section className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-        <h2 className="text-xl font-semibold text-slate-800">FAQs</h2>
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          {[
-            {
-              q: "Do you provide custom sizes/configurations?",
-              a: "Yes. Share your layout and clinical workflow—we’ll propose the closest model or a custom configuration.",
-            },
-            {
-              q: "What about warranty and service?",
-              a: "Standard limited warranty with responsive, region-wise service support. Extended plans available.",
-            },
-          ].map((f) => (
-            <div key={f.q} className="rounded-lg border border-slate-100 p-4">
-              <div className="font-medium text-slate-800">{f.q}</div>
-              <div className="mt-1 text-slate-600">{f.a}</div>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }
