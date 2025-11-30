@@ -4,51 +4,54 @@ import Image from "next/image";
 
 type Props = {
   imageSrc?: string;
+  mobileImageSrc?: string;
   headline?: string;
-  sub?: string;
 };
 
 export default function HeroBannerWithOverlay({
-  imageSrc = "/herobanner.webp",
+  imageSrc = "/herobanner.webp", // Desktop banner
+  mobileImageSrc = "/mobile_hero_bannner.tif", // Mobile banner
   headline = "Manufacturer of ICU Beds, Ward Beds, Room and Ward-Care Devices, Emeregency & Transfer Trolleys, Examination Room Devices, Treatment Devices, OB/GYN Devices, Bio-Medical Waste Management Devices, Utility Devices, CSSD Devices, Operation Theatre/ Room Devices, and Repairs And Parts.",
 }: Props) {
   return (
-    <section className="relative isolate overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0 -z-10">
+    <section className="relative isolate overflow-hidden h-[60vh] sm:h-[80vh]">
+      {/* DESKTOP IMAGE */}
+      <div className="absolute inset-0 -z-10 hidden md:block">
         <Image
           src={imageSrc}
-          alt="Collection of medical products"
+          alt="Medical products"
           fill
           priority
-          fetchPriority="high"
           sizes="100vw"
-          className="object-cover"
+          className="object-fit"
         />
-
-        {/* 🔥 Black gradient overlay */}
         <div className="absolute inset-0 bg-black/60" />
-
-        {/* Soft vignette */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_rgba(0,0,0,0.50),_transparent_45%)]" />
-        </div>
       </div>
 
-      {/* Content */}
+      {/* MOBILE IMAGE */}
+      <div className="absolute inset-0 -z-10 md:hidden block">
+        <Image
+          src={mobileImageSrc}
+          alt="Medical products mobile"
+          fill
+          priority
+          sizes="100vw"
+          className="object-fit"
+        />
+        <div className="absolute inset-0 bg-black/60" />
+      </div>
+
+      {/* CONTENT */}
       <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28 lg:py-32">
-        <div className="">
-          <h1 className="text-2xl mx-2 md:mx-16 sm:text-4xl md:text-3xl font-extrabold text-white leading-tight drop-shadow-lg">
-            {headline}
-          </h1>
-        </div>
+        <h1 className="text-2xl mx-2 md:mx-16 sm:text-4xl md:text-3xl font-extrabold text-white leading-tight drop-shadow-lg">
+          {headline}
+        </h1>
       </div>
 
-      {/* Decorative SVG Animation */}
+      {/* Decorative Shape */}
       <svg
-        className="absolute -right-20 top-32 w-80 opacity-20 animate-float-slow"
+        className="absolute -right-20 top-32 w-80 opacity-20 animate-float-slow hidden md:block"
         viewBox="0 0 200 200"
-        xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
           <linearGradient id="g" x1="0" x2="1">

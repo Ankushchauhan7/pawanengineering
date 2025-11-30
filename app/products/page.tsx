@@ -1,48 +1,84 @@
 "use client";
 
 import products from "@/data.json";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import QuickEnquiry from "../components/QuickEnquiry";
 
 export default function ProductsPage() {
-  // Collect unique categories
   const allCategories = Array.from(new Set(products.map((p) => p.category)));
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
-  // Filter products by category
+  // refs
+  const productsRef = useRef<HTMLDivElement | null>(null);
+  const mobileBarRef = useRef<HTMLDivElement | null>(null);
+
+  // measured height of mobile bar
+  const [mobileBarHeight, setMobileBarHeight] = useState<number>(0);
+
+  useEffect(() => {
+    const measure = () => {
+      const el = mobileBarRef.current;
+      setMobileBarHeight(el ? Math.ceil(el.getBoundingClientRect().height) : 0);
+    };
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, []);
+
+  // smooth scroll to products, account for mobile bar height if present
+  const scrollToProducts = () => {
+    const el = productsRef.current;
+    if (!el) return;
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const top =
+          el.getBoundingClientRect().top + window.scrollY - (mobileBarHeight || 0) - 8;
+        window.scrollTo({
+          top: Math.max(0, Math.floor(top)),
+          behavior: "smooth",
+        });
+
+        // accessibility focus
+        el.setAttribute("tabindex", "-1");
+        try {
+          el.focus({ preventScroll: true });
+        } catch {
+          //
+        }
+      });
+    });
+  };
+
+  const handleCategorySelect = (cat: string) => {
+    setActiveCategory(cat);
+    scrollToProducts();
+  };
+
   const visibleProducts =
     activeCategory === "All"
       ? products
       : products.filter((p) => p.category === activeCategory);
 
   return (
-    // set a CSS variable with header height so we can subtract it for scroller
-    <div
-      className="bg-gray-50"
-      style={{ ["--header-height" as any]: "6rem" }} // adjust header height if needed
-    >
+    <div className="bg-gray-50">
       <div className="min-h-screen mx-2 md:mx-16 py-10">
         <div className="max-w-7xl mx-auto px-4">
-          {/* ---------- two-column wrapper ---------- */}
           <div className="flex gap-8">
-            {/* Sidebar */}
+            {/* Desktop Sidebar - sticky on md+ */}
             <aside className="hidden md:block md:w-64 shrink-0">
-              {/* Use sticky so sidebar stays visible inside viewport */}
-              <div
-                className="sticky top-[calc(var(--header-height)+1rem)] rounded-xl bg-white border shadow-sm p-6"
-                // top uses CSS var to keep below header. Adjust top if header value changes.
-              >
+              <div className="md:sticky md:top-24 md:self-start rounded-xl bg-white border shadow-sm p-6">
                 <h2 className="text-xl font-bold mb-4">Categories</h2>
                 <ul className="space-y-2">
                   <li>
                     <button
+                      onClick={() => handleCategorySelect("All")}
                       className={`w-full text-left px-4 py-2 rounded-lg font-semibold transition ${
                         activeCategory === "All"
                           ? "bg-blue-600 text-white shadow"
                           : "bg-gray-50 text-blue-600 hover:bg-blue-100"
                       }`}
-                      onClick={() => setActiveCategory("All")}
                     >
                       All Products
                     </button>
@@ -51,12 +87,12 @@ export default function ProductsPage() {
                   {allCategories.map((cat) => (
                     <li key={cat}>
                       <button
+                        onClick={() => handleCategorySelect(cat)}
                         className={`w-full text-left px-4 py-2 rounded-lg font-semibold transition ${
                           activeCategory === cat
                             ? "bg-blue-600 text-white shadow"
                             : "bg-gray-50 text-blue-600 hover:bg-blue-100"
                         }`}
-                        onClick={() => setActiveCategory(cat)}
                       >
                         {cat}
                       </button>
@@ -66,52 +102,59 @@ export default function ProductsPage() {
               </div>
             </aside>
 
-            {/* Main area */}
+            {/* Main */}
             <main className="flex-1 min-w-0">
-              <h1 className="text-4xl font-bold mb-6 text-center md:text-left">
-                Our Products
-              </h1>
+              {/* Page title (non-sticky) */}
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Products</h1>
 
-              {/* Controls for small screens (categories) */}
-              <div className="md:hidden mb-6">
-                <label className="sr-only">Category</label>
-                <select
-                  value={activeCategory}
-                  onChange={(e) => setActiveCategory(e.target.value)}
-                  className="w-full rounded-lg border px-3 py-2 bg-white"
-                >
-                  <option value="All">All Products</option>
-                  {allCategories.map((c) => (
-                    <option key={c} value={c}>
-                      {c}
-                    </option>
-                  ))}
-                </select>
+              {/* MOBILE: Sticky category bar placed in-flow under the title (md:hidden) */}
+              {/* Using `sticky top-0` means it won't cover the header because it's located below it in the DOM */}
+              <div
+                ref={mobileBarRef}
+                className="md:hidden sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-gray-200"
+              >
+                <div className="max-w-7xl mx-auto px-4 py-2">
+                  <div className="flex gap-2 overflow-x-auto no-scrollbar -mx-2 px-2">
+                    <button
+                      onClick={() => handleCategorySelect("All")}
+                      className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold transition ${
+                        activeCategory === "All"
+                          ? "bg-blue-600 text-white"
+                          : "bg-gray-100 text-slate-700 hover:bg-blue-50"
+                      }`}
+                    >
+                      All
+                    </button>
+
+                    {allCategories.map((cat) => (
+                      <button
+                        key={cat}
+                        onClick={() => handleCategorySelect(cat)}
+                        className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-semibold transition ${
+                          activeCategory === cat
+                            ? "bg-blue-600 text-white"
+                            : "bg-gray-100 text-slate-700 hover:bg-blue-50"
+                        }`}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
 
-              {/* Product grid wrapper that scrolls independently */}
-              <div
-                className="rounded-xl bg-transparent"
-                /* important: scroller height = viewport height minus header */
-              >
-                <div
-                  className="overflow-auto"
-                  style={{
-                    // subtract header + some page padding: adjust var or value as needed
-                    height: "calc(100vh - var(--header-height) - 4rem)",
-                  }}
-                >
-                  <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 p-1">
-                    {visibleProducts.map((product: any) => (
-                      <ProductCard key={product.id} product={product} />
-                    ))}
+              {/* Products Section */}
+              <div ref={productsRef} className="scroll-mt-10">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 p-1">
+                  {visibleProducts.map((product: any) => (
+                    <ProductCard key={product.id} product={product} />
+                  ))}
 
-                    {visibleProducts.length === 0 && (
-                      <div className="col-span-full text-center text-gray-400 p-8">
-                        No products found in this category.
-                      </div>
-                    )}
-                  </div>
+                  {visibleProducts.length === 0 && (
+                    <div className="col-span-full text-center text-gray-400 p-8">
+                      No products found in this category.
+                    </div>
+                  )}
                 </div>
               </div>
             </main>
@@ -119,7 +162,6 @@ export default function ProductsPage() {
         </div>
       </div>
 
-      {/* quick enquiry sits below everything (not inside scroller) */}
       <QuickEnquiry />
     </div>
   );
