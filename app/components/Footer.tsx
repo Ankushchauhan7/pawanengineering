@@ -70,47 +70,47 @@ export default function Footer() {
             <h6 className=" text-white">Products</h6>
             <ul className="mt-6 space-y-4">
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   ICU Beds
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Room & Ward Care
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Emergency Transfer
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Examination Room
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Treatment Devices
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Biomedical Waste
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Utility
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   Operation Room
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                <Link href="/products" className="hover:text-white">
                   OB/GYN
                 </Link>
               </li>
@@ -122,7 +122,7 @@ export default function Footer() {
             <h6 className=" text-white">Useful Links</h6>
             <ul className="mt-6 space-y-4">
               <li>
-                <Link href="/about" className="hover:text-white">
+                <Link href="/coming-soon" className="hover:text-white">
                   Ex-Stock items
                 </Link>
               </li>

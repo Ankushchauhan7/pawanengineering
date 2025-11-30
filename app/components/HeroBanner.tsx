@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { FaBoxOpen, FaPhone } from "react-icons/fa";
 
 type Props = {
   imageSrc?: string;
@@ -11,12 +9,12 @@ type Props = {
 };
 
 export default function HeroBannerWithOverlay({
-  imageSrc = "/hero-products.webp",
-  headline = "Manufacturer of ICU Beds, Ward Beds, Room and Ward-Care Devices, Emeregency & Transfer Trolleys, Examination Room Devices, Treatment Devices, OB/GYN Devices, Bio-Medical Waste Management Devices, Utility Devices, CSSD Devices, Operation Theatre/ Room Devices,  and Repair And Part.",
+  imageSrc = "/herobanner.webp",
+  headline = "Manufacturer of ICU Beds, Ward Beds, Room and Ward-Care Devices, Emeregency & Transfer Trolleys, Examination Room Devices, Treatment Devices, OB/GYN Devices, Bio-Medical Waste Management Devices, Utility Devices, CSSD Devices, Operation Theatre/ Room Devices, and Repairs And Parts.",
 }: Props) {
   return (
     <section className="relative isolate overflow-hidden">
-      {/* Background image (must set parent relative) */}
+      {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
           src={imageSrc}
@@ -24,37 +22,38 @@ export default function HeroBannerWithOverlay({
           fill
           priority
           fetchPriority="high"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1200px"
+          sizes="100vw"
           className="object-cover"
         />
-        {/* Color overlay gradient for mood + readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-sky-900/70 via-sky-700/45 to-transparent" />
-        {/* Soft vignette for focus */}
-        <div className="absolute inset-0 pointer-events-none" aria-hidden>
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_rgba(0,0,0,0.45),_transparent_40%)]" />
+
+        {/* 🔥 Black gradient overlay */}
+        <div className="absolute inset-0 bg-black/60" />
+
+        {/* Soft vignette */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_rgba(0,0,0,0.50),_transparent_45%)]" />
         </div>
       </div>
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28 lg:py-32">
         <div className="">
-          <h1 className="text-3xl mx-2 md:mx-16 sm:text-4xl md:text-5xl font-extrabold text-white leading-tight drop-shadow-sm">
+          <h1 className="text-2xl mx-2 md:mx-16 sm:text-4xl md:text-3xl font-extrabold text-white leading-tight drop-shadow-lg">
             {headline}
           </h1>
         </div>
       </div>
 
-      {/* Decorative subtle animated shapes (non-intrusive) */}
+      {/* Decorative SVG Animation */}
       <svg
         className="absolute -right-20 top-32 w-80 opacity-20 animate-float-slow"
         viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg"
-        aria-hidden
       >
         <defs>
           <linearGradient id="g" x1="0" x2="1">
-            <stop offset="0" stopColor="#38bdf8" stopOpacity="0.6" />
-            <stop offset="1" stopColor="#06b6d4" stopOpacity="0.3" />
+            <stop offset="0" stopColor="#000" stopOpacity="0.4" />
+            <stop offset="1" stopColor="#000" stopOpacity="0.2" />
           </linearGradient>
         </defs>
         <path
@@ -65,7 +64,6 @@ export default function HeroBannerWithOverlay({
       </svg>
 
       <style jsx>{`
-        /* gentle float animation for decorative svg */
         @keyframes float-slow {
           0% {
             transform: translateY(0);

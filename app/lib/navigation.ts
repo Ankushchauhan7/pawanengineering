@@ -31,7 +31,7 @@ export const MOBILE_NAV_LINKS: NavLink[] = [
 export const MAIN_NAV_LINKS: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products" },
-  { label: "Ex-Stock Sale", href: "/ex-stock-sale" },
+  { label: "Ex-Stock Sale", href: "/coming-soon" },
   { label: "Repairs & Parts", href: "/repairs-and-parts" },
   { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" },
