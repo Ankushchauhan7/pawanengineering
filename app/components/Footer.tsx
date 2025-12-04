@@ -122,12 +122,12 @@ export default function Footer() {
             <h6 className=" text-white">Useful Links</h6>
             <ul className="mt-6 space-y-4">
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/ex-stock-sale" className="hover:text-white">
                   Ex-Stock items
                 </Link>
               </li>
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/customization" className="hover:text-white">
                   Customization
                 </Link>
               </li>
@@ -137,22 +137,22 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/refurbishing" className="hover:text-white">
                   Refurbishing
                 </Link>
               </li>
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/quotations" className="hover:text-white">
                   Quotations & terms
                 </Link>
               </li>
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/technical-document" className="hover:text-white">
                   Technical documents
                 </Link>
               </li>
               <li>
-                <Link href="/coming-soon" className="hover:text-white">
+                <Link href="/faq" className="hover:text-white">
                   FAQ
                 </Link>
               </li>

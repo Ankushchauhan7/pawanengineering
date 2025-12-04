@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="mx-2 md:mx-16 space-y-12 py-10">
+    <div className="mx-2 md:mx-16 px-4 space-y-12 py-10">
       {/* Heading */}
       <section className="text-left">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">

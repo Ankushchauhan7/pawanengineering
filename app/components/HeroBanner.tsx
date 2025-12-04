@@ -25,7 +25,7 @@ export default function HeroBannerWithOverlay({
           sizes="100vw"
           className="object-fit"
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       {/* MOBILE IMAGE */}

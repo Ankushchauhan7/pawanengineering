@@ -3,9 +3,9 @@ import QuickEnquiry from "../components/QuickEnquiry";
 export default function AboutPage() {
   return (
     <div>
-      <div className="mx-2 md:mx-16 space-y-16 py-10">
+      <div className="mx-2 md:mx-16 px-4 space-y-16 py-10">
         {/* Hero */}
-        <section className="rounded-2xl bg-sky-50/50 p-8 md:p-12">
+        <section className="rounded-2xl p-2 md:p-4  bg-sky-50/50">
           <h1 className="text-3xl md:text-4xl font-semibold text-slate-800">
             Pawan Engineering Works
           </h1>
@@ -59,7 +59,7 @@ export default function AboutPage() {
           ].map((i) => (
             <article
               key={i.t}
-              className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-100"
+              className="rounded-xl bg-white p-2 md:p-4 shadow-sm ring-1 ring-slate-100"
             >
               <h3 className="text-lg font-semibold text-slate-800">{i.t}</h3>
               <p className="mt-2 text-slate-600">{i.d}</p>
