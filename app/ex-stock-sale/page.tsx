@@ -11,16 +11,16 @@ export const metadata: Metadata = {
 
 const GALLERY = [
   { src: "/products/PEW-1040.png", alt: "ICU bed" },
-  { src: "/ex-stock/fowler-bed.jpg", alt: "Fowler bed" },
-  { src: "/ex-stock/bedside-locker.jpg", alt: "Bedside locker" },
-  { src: "/ex-stock/overbed-table.jpg", alt: "Overbed table" },
-  { src: "/ex-stock/emergency-trolley.jpg", alt: "Emergency trolley" },
-  { src: "/ex-stock/examination-couch.jpg", alt: "Examination couch" },
-  { src: "/ex-stock/foot-step-stand.jpg", alt: "Foot step stand" },
-  { src: "/ex-stock/iv-stand.jpg", alt: "IV stand" },
-  { src: "/ex-stock/bedside-screen.jpg", alt: "Bedside screen" },
-  { src: "/ex-stock/obgyn-table.jpg", alt: "OB/Gyn table" },
-  { src: "/ex-stock/wheelchair.jpg", alt: "Wheelchair" },
+  { src: "/products/PEW-1215.png", alt: "Fowler bed" },
+  { src: "/products/PEW-4110.png", alt: "Bedside locker" },
+  { src: "/products/PEW-4260.png", alt: "Overbed table" },
+  { src: "/products/PEW-1860.png", alt: "Emergency trolley" },
+  { src: "/products/PEW-2200.png", alt: "Examination couch" },
+  { src: "/products/PEW-4485.png", alt: "Foot step stand" },
+  { src: "/products/PEW-4425.png", alt: "IV stand" },
+  { src: "/products/PEW-3700.png", alt: "Bedside screen" },
+  { src: "/products/PEW-2210.png", alt: "OB/Gyn table" },
+  { src: "/products/PEW-3290.png", alt: "Wheelchair" },
 ];
 
 export default function ExStockSalePage() {
@@ -103,7 +103,7 @@ export default function ExStockSalePage() {
                     alt={g.alt}
                     fill
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    className="object-cover "
+                    className="object-fit"
                   />
                 </div>
                 <figcaption className="p-3 text-sm text-slate-700">
