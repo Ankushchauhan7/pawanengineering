@@ -52,7 +52,7 @@ export default function ContactPage() {
           <ul className="mt-4 space-y-3 text-slate-700">
             <li>
               <span className="font-medium">Email:</span>{" "}
-              info@pawanengineering.in
+              support@pawanengineering.in
             </li>
             <li>
               <span className="font-medium">Phone:</span> +91- 9810368018,

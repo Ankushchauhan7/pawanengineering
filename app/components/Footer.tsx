@@ -177,10 +177,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@pawanengineering.in"
+                  href="mailto:support@pawanengineering.in"
                   className="hover:text-white"
                 >
-                  info@pawanengineering.in
+                  support@pawanengineering.in
                 </a>
               </li>
             </ul>
