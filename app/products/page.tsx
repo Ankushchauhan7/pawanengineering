@@ -5,7 +5,8 @@ import { useState, useMemo, useRef, useEffect } from "react";
 import EnquiryModal, { EnquiryProduct } from "@/app/components/ot/EnquiryModal";
 import OTCard from "@/app/components/ot/OTCard";
 import OTBottomCTA from "@/app/components/ot/OTBottomCTA";
-import type {Product} from "@/app/lib/types" 
+import type { Product } from "@/app/lib/types";
+
 export default function ProductsPage() {
   const allCategories = useMemo(
     () => Array.from(new Set((products as Product[]).map((p) => p.category))),
@@ -13,10 +14,10 @@ export default function ProductsPage() {
   );
 
   const [activeCategory, setActiveCategory] = useState<string>("All");
-  const [searchQuery, setSearchQuery]       = useState<string>("");
-  const [enquiry, setEnquiry]               = useState<EnquiryProduct | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [enquiry, setEnquiry] = useState<EnquiryProduct | null>(null);
 
-  const productsRef  = useRef<HTMLDivElement>(null);
+  const productsRef = useRef<HTMLDivElement>(null);
   const mobileBarRef = useRef<HTMLDivElement>(null);
   const [mobileBarHeight, setMobileBarHeight] = useState<number>(0);
 
@@ -111,34 +112,17 @@ export default function ProductsPage() {
           </div>
         </section>
 
-        {/* ── Page body ──────────────────────────────────────────────────────
-            ✅ CSS GRID:
-            - "240px 1fr" on desktop  → sidebar is ALWAYS exactly 240px
-            - "1fr"       on mobile   → single column, sidebar hidden
-            No flex, no w-* fighting, no overflow surprises.
-        ──────────────────────────────────────────────────────────────────── */}
+        {/* ── Page body ── */}
         <div className="max-w-7xl mx-auto px-4 md:px-16 py-8">
-          <div
-            className="grid gap-6"
-            style={{
-              gridTemplateColumns: "240px 1fr",
-            }}
-          >
-            {/* Responsive override via a small style tag — avoids the need
-                for a custom Tailwind breakpoint plugin */}
-            <style>{`
-              @media (max-width: 767px) {
-                .products-grid-layout {
-                  grid-template-columns: 1fr !important;
-                }
-                .products-sidebar {
-                  display: none !important;
-                }
-              }
-            `}</style>
 
-            {/* ── Sidebar ── */}
-            <aside className="products-sidebar space-y-4">
+          {/* ✅ FIX: Tailwind-only responsive grid.
+              - Mobile: single column (sidebar hidden)
+              - Desktop (md+): sidebar 240px + main content
+          */}
+          <div className="grid gap-6 md:grid-cols-[240px_1fr]">
+
+            {/* ── Sidebar — hidden on mobile ── */}
+            <aside className="hidden md:block space-y-4">
               <div className="sticky top-24 space-y-4">
 
                 {/* Search */}
