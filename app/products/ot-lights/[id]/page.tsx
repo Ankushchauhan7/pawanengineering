@@ -1,8 +1,8 @@
 import ProductDetail from "@/app/components/ProductDetail";
-import products from "@/data.json";
+import products from "@/app/data/ot-lights.json";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import type { Product } from "@/app/lib/types";
+import type { OTProduct } from "@/app/components/ot/OTCard";
 
 type Params = Promise<{ id: string }>;
 
@@ -16,7 +16,7 @@ export async function generateMetadata(props: {
   params: Params;
 }): Promise<Metadata> {
   const params = await props.params;
-  const product = (products as Product[]).find((p) => p.id === params.id); // ← removed parseInt
+  const product = (products as OTProduct[]).find((p) => p.id === params.id); // ← removed parseInt
 
   if (!product) {
     return {
@@ -54,11 +54,11 @@ export async function generateMetadata(props: {
 export default async function ProductPage(props: { params: Params }) {
   const params = await props.params;
 
-  const product = (products as Product[]).find((p) => p.id === params.id); // ← removed parseInt
+  const product = (products as OTProduct[]).find((p) => p.id === params.id); // ← removed parseInt
 
   if (!product) notFound();
 
-  const relatedProducts = (products as Product[])
+  const relatedProducts = (products as OTProduct[])
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 

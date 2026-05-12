@@ -210,42 +210,6 @@ export default function ProductDetail({
           </div>
         </div>
 
-        {/* Related Products */}
-        {relatedProducts.length > 0 && (
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Related Products
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {relatedProducts.slice(0, 4).map((prod) => (
-                <Link
-                  key={prod.id}
-                  href={`/products/${prod.id}`}
-                  className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition group"
-                >
-                  <div className="relative aspect-square bg-gray-100">
-                    <Image
-                      src={prod.image}
-                      alt={prod.name}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 25vw"
-                      className="object-contain p-4 mix-blend-multiply group-hover:scale-105 transition"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <p className="text-xs text-gray-500 mb-1">{prod.model}</p>
-                    <h3 className="font-semibold text-gray-900 line-clamp-2 mb-2">
-                      {prod.name}
-                    </h3>
-                    <p className="text-sm text-blue-600 font-semibold">
-                      {prod.price}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "PEW-9001",
+    "model": "PEW-9001",
+    "name": "Motorized Operating Table (C-Arm Compatible, Top-Sliding, Center Locking Wheel)",
+    "category": "OT Tables",
+    "type": "Motorized",
+    "description": "Fully electric-actuator operated operating table using wired handsets and auxiliary column-panel. Comes with manual crank option in case of power failure.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9001.png",
+    "features": [
+      "Eccentric Column for proper C-ARM positioning",
+      "Five Section Radio-Translucent Top",
+      "Top sliding for C-Arm positioning",
+      "In-built kidney-bridge",
+      "Detachable Head, Leg & Pelvic Section",
+      "Twin-tread central locking castors",
+      "Split leg section",
+      "Base and column cover made of SS-304",
+      "Optional battery back-up available"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±20°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation"
+    },
+    "optional_accessories": [
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9005",
+    "model": "PEW-9005",
+    "name": "Motorized Operating Table (C-Arm Compatible)",
+    "category": "OT Tables",
+    "type": "Motorized",
+    "description": "Fully electric actuator operated Operating table using wired handsets and auxiliary column panel. Manual crank option powers the actuators similar to Electro-Hydraulic Tables.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9005.png",
+    "features": [
+      "Eccentric Column for proper C-ARM positioning",
+      "Five Section Radio-Translucent Top",
+      "In-built kidney-bridge",
+      "Detachable Head, Leg & Pelvic Section",
+      "Split leg section",
+      "Base and column cover made of SS-304",
+      "Stainless Steel Fittings",
+      "OPTIONAL: Top sliding for C-Arm positioning",
+      "OPTIONAL: Battery back-up available"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±20°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation"
+    },
+    "optional_accessories": [
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9010",
+    "model": "PEW-9010",
+    "name": "Motorized Bariatric Operating Table (C-Arm Compatible)",
+    "category": "OT Tables",
+    "type": "Motorized",
+    "description": "Fully electric actuator operated Operating table designed for bariatric patients with load-bearing capacity up to 350 kgs. Optional Electro-Hydraulic operation available.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9010.png",
+    "features": [
+      "Central Column for proper heavy weight balancing",
+      "Load-bearing capacity up to 350 kgs",
+      "Adjustable width to accommodate patient's physical volume",
+      "Four Section Radio-Translucent Top",
+      "Top sliding for C-Arm positioning",
+      "Detachable Head, Leg & Pelvic Section",
+      "Base and column cover made of SS-304",
+      "Split leg section",
+      "OPTIONAL: Electro-Hydraulic operation",
+      "OPTIONAL: Battery back-up available"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±15°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation",
+      "Max_Load": "350 kg"
+    },
+    "optional_accessories": [
+      "Side-Rail clamp - 1 Set",
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair",
+      "Foot-rest - 1 Pair",
+      "Body-support belt with Velcro - 1 Pair",
+      "Width extender - 2 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9050",
+    "model": "PEW-9050",
+    "name": "Semi-Motorized Operating Table (C-Arm Compatible)",
+    "category": "OT Tables",
+    "type": "Semi-Motorized",
+    "description": "Semi-motorized Operating table with height adjustment using electric actuator. All other functions operated using crank mechanisms.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9050.png",
+    "features": [
+      "Eccentric Column for proper C-ARM positioning",
+      "Height adjustment by electric actuator",
+      "Five Section Radio-Translucent Top",
+      "In-built kidney-bridge",
+      "Detachable Head, Leg & Pelvic Section",
+      "Split leg section",
+      "Base and column cover made of SS-304",
+      "Stainless Steel Fittings",
+      "OPTIONAL: Battery back-up available"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±15°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation"
+    },
+    "optional_accessories": [
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9075",
+    "model": "PEW-9075",
+    "name": "Semi-Motorized Gynaecological Operating Table",
+    "category": "OT Tables",
+    "type": "Semi-Motorized",
+    "description": "Semi-motorized Gynaecological Operating table with height adjustment using electric actuator. All other functions operated using crank mechanisms.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9075.png",
+    "features": [
+      "Central Column for proper weight distribution",
+      "Height adjustment by electric actuator",
+      "Four Section Radio-Translucent Top",
+      "In-built kidney-bridge",
+      "Detachable Head, Leg & Pelvic Section",
+      "Split leg section",
+      "Base and column cover made of SS-304",
+      "Stainless Steel Fittings",
+      "OPTIONAL: Battery back-up available"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±20°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation"
+    },
+    "optional_accessories": [
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9090",
+    "model": "PEW-9090",
+    "name": "General Surgery Manual Operating Table",
+    "category": "OT Tables",
+    "type": "Manual",
+    "description": "Height adjustment using imported hydraulic pump operated by pedal mechanism. All other position operations use crank mechanisms.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9090.png",
+    "features": [
+      "Central Column for proper weight distribution",
+      "Height by imported hydraulic pump (pedal operated)",
+      "Five Section Top",
+      "In-built kidney-bridge",
+      "Detachable Head, Leg & Pelvic Section",
+      "Base and column cover made of SS-304",
+      "Stainless Steel Fittings"
+    ],
+    "specifications": {
+      "Length": "1950mm",
+      "Width": "525mm",
+      "Min_Height": "750mm",
+      "Max_Height": "1000mm",
+      "Trendelenburg": "±25°",
+      "Lateral_Tilt": "±20°",
+      "Back_Section": "+75° & -40°",
+      "Head_Section": "±60°",
+      "Leg_Section": "0°-90°",
+      "Floor_Lock": "Manual operation"
+    },
+    "optional_accessories": [
+      "L-shaped Anaesthetic screen - 1 Pc",
+      "Side Support - 1 Pair",
+      "Shoulder Support - 1 Pair",
+      "Radio translucent arm-board - 1 Pair",
+      "PU foam mattress - 1 Set",
+      "Goepel knee-crutch with straps - 1 Pair"
+    ]
+  },
+  {
+    "id": "PEW-9300",
+    "model": "PEW-9300",
+    "name": "Orthopaedic Traction Table",
+    "category": "OT Tables",
+    "type": "Manual",
+    "description": "Orthopaedic traction table with SS 304 grade fittings. Easy C-ARM access with no floor obstruction.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9300.png",
+    "features": [
+      "Easy to assemble and operate",
+      "SS 304 grade fittings",
+      "Ease of C-ARM access",
+      "No floor obstruction",
+      "Properly weight distributed and stability in operation"
+    ],
+    "specifications": {},
+    "optional_accessories": [
+      "Hand-surgery board with stand - 1 Pc",
+      "Pelvic sheet with mattress - 1 Pc",
+      "Traction boot - 1 Pair",
+      "Counter-traction post - 1 Pc",
+      "Perineal post - 1 Pc",
+      "Extension support bar - 1 Pc",
+      "Knee support post - 1 Pc",
+      "Lower leg support - 1 Pc"
+    ]
+  },
+  {
+    "id": "PEW-9305",
+    "model": "PEW-9305",
+    "name": "Orthopaedic Traction Table (Advanced)",
+    "category": "OT Tables",
+    "type": "Manual",
+    "description": "Advanced orthopaedic traction table with SS 304 grade fittings. Easy C-ARM access with no floor obstruction.",
+    "price": "Contact for Quote",
+    "image": "/products/ot-tables/PEW-9305.png",
+    "features": [
+      "Easy to assemble and operate",
+      "SS 304 grade fittings",
+      "Ease of C-ARM access",
+      "No floor obstruction",
+      "Properly weight distributed and stability in operation"
+    ],
+    "specifications": {},
+    "optional_accessories": [
+      "Hand-surgery board with stand - 1 Pc",
+      "Pelvic sheet with mattress - 1 Pc",
+      "Traction boot - 1 Pair",
+      "Counter-traction post - 1 Pc",
+      "Perineal post - 1 Pc",
+      "Extension support bar - 1 Pc",
+      "Knee support post - 1 Pc",
+      "Lower leg support - 1 Pc"
+    ]
+  }
+]

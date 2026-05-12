@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "PEW-1040",
     "model": "PEW-1040",
     "name": "ICU Bed Motorised - Five Function - Premium Plus",
     "category": "ICU Beds",
@@ -26,12 +26,12 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0",
-      "Reverse_Trendelenburg": "0-12\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°",
+      "Reverse_Trendelenburg": "0-12°",
       "Frame_Material": "60x40mm MS CRCA tubes 1.6mm thick",
-      "Castors": "Four \u00d8125mm central locking"
+      "Castors": "Four Ø125mm central locking"
     },
     "optional_accessories": [
       "Mattress 4\" thickness"
@@ -39,7 +39,7 @@
     "image": "/products/PEW-1040.png"
   },
   {
-    "id": 2,
+    "id": "PEW-1050",
     "model": "PEW-1050",
     "name": "ICU Bed Motorized - Five Function - Premium",
     "category": "ICU Beds",
@@ -63,12 +63,12 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0",
-      "Reverse_Trendelenburg": "0-12\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°",
+      "Reverse_Trendelenburg": "0-12°",
       "Control": "Wired remote hand-set",
-      "Castors": "\u00d8125mm single wheel plastic swivel with brakes"
+      "Castors": "Ø125mm single wheel plastic swivel with brakes"
     },
     "optional_accessories": [
       "Mattress 4\" thickness 32-40 density",
@@ -78,7 +78,7 @@
     "image": "/products/PEW-1050.png"
   },
   {
-    "id": 3,
+    "id": "PEW-1090",
     "model": "PEW-1090",
     "name": "ICU Bed Five Functions Manual - Premium",
     "category": "ICU Beds",
@@ -100,10 +100,10 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0",
-      "Reverse_Trendelenburg": "0-12\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°",
+      "Reverse_Trendelenburg": "0-12°",
       "Control": "Manual crank mechanism"
     },
     "optional_accessories": [
@@ -112,7 +112,7 @@
     "image": "/products/PEW-1090.png"
   },
   {
-    "id": 4,
+    "id": "PEW-1610",
     "model": "PEW-1610",
     "name": "ICU Bed Five Functions Manual - Premium (Aluminium Railings)",
     "category": "ICU Beds",
@@ -132,9 +132,9 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°",
       "Control": "Manual crank mechanism",
       "Side_Railings": "Aluminium collapsible"
     },
@@ -146,7 +146,7 @@
     "image": "/products/PEW-1610.png"
   },
   {
-    "id": 5,
+    "id": "PEW-1620",
     "model": "PEW-1620",
     "name": "ICU Bed Three Functions Manual - Premium (Height Adjustment)",
     "category": "ICU Beds",
@@ -165,8 +165,8 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
       "Control": "Manual crank mechanism"
     },
     "optional_accessories": [
@@ -177,7 +177,7 @@
     "image": "/products/PEW-1620.png"
   },
   {
-    "id": 6,
+    "id": "PEW-1625",
     "model": "PEW-1625",
     "name": "ICU Bed Three Functions Motorized - Premium (Height Adjustment)",
     "category": "ICU Beds",
@@ -196,8 +196,8 @@
       "Width": "900mm",
       "Height_Min": "510mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
       "Control": "Electric actuator with hand-set"
     },
     "optional_accessories": [
@@ -208,7 +208,7 @@
     "image": "/products/PEW-1625.png"
   },
   {
-    "id": 7,
+    "id": "PEW-1640",
     "model": "PEW-1640",
     "name": "ICU Bed Three Functions Manual Premium (Trendelenburg)",
     "category": "ICU Beds",
@@ -226,10 +226,10 @@
       "Length": "1900mm",
       "Width": "900mm",
       "Height": "560mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0",
-      "Reverse_Trendelenburg": "0-12\u00b0"
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°",
+      "Reverse_Trendelenburg": "0-12°"
     },
     "optional_accessories": [
       "Mattress 4\" thickness 32-40 density",
@@ -239,7 +239,7 @@
     "image": "/products/PEW-1640.png"
   },
   {
-    "id": 8,
+    "id": "PEW-1215",
     "model": "PEW-1215",
     "name": "Fowler Bed Manual Premium",
     "category": "Room & Ward Care",
@@ -257,8 +257,8 @@
       "Length": "1900mm",
       "Width": "900mm",
       "Height": "560mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
       "Control": "Manual crank mechanism"
     },
     "optional_accessories": [
@@ -269,7 +269,7 @@
     "image": "/products/PEW-1215.png"
   },
   {
-    "id": 9,
+    "id": "PEW-1240",
     "model": "PEW-1240",
     "name": "Semi Fowlers Bed Premium (Motorized)",
     "category": "Room & Ward Care",
@@ -287,7 +287,7 @@
       "Length": "1900mm",
       "Width": "900mm",
       "Height": "560mm",
-      "Backrest_Tilt": "0-75\u00b0",
+      "Backrest_Tilt": "0-75°",
       "Control": "Electric actuator with hand-set",
       "Frame": "60x40mm MS CR Tubes 1.2mm thick"
     },
@@ -298,7 +298,7 @@
     "image": "/products/PEW-1240.png"
   },
   {
-    "id": 10,
+    "id": "PEW-1250",
     "model": "PEW-1250",
     "name": "Semi Fowlers Bed Premium (Manual)",
     "category": "Room & Ward Care",
@@ -316,7 +316,7 @@
       "Length": "1900mm",
       "Width": "900mm",
       "Height": "560mm",
-      "Backrest_Tilt": "0-75\u00b0",
+      "Backrest_Tilt": "0-75°",
       "Control": "Manual crank mechanism"
     },
     "optional_accessories": [
@@ -326,7 +326,7 @@
     "image": "/products/PEW-1250.png"
   },
   {
-    "id": 11,
+    "id": "PEW-1300",
     "model": "PEW-1300",
     "name": "Paediatric Bed - Plane Bed Economy",
     "category": "Room & Ward Care",
@@ -350,7 +350,7 @@
     "image": "/products/PEW-1300.png"
   },
   {
-    "id": 12,
+    "id": "PEW-1310",
     "model": "PEW-1310",
     "name": "Paediatric Bed - Single Function",
     "category": "Room & Ward Care",
@@ -374,7 +374,7 @@
     "image": "/products/PEW-1310.png"
   },
   {
-    "id": 13,
+    "id": "PEW-1320",
     "model": "PEW-1320",
     "name": "Paediatric Bed - Single Function SS Laminated",
     "category": "Room & Ward Care",
@@ -397,7 +397,7 @@
     "image": "/products/PEW-1320.png"
   },
   {
-    "id": 14,
+    "id": "PEW-1455",
     "model": "PEW-1455",
     "name": "Attendant's Bed MS",
     "category": "Room & Ward Care",
@@ -414,13 +414,13 @@
       "Length": "1830mm",
       "Width": "610mm",
       "Height": "460mm",
-      "Material": "CRCA MS round tube \u00d832mm 18G thick"
+      "Material": "CRCA MS round tube Ø32mm 18G thick"
     },
     "optional_accessories": [],
     "image": "/products/PEW-1455.png"
   },
   {
-    "id": 15,
+    "id": "PEW-1480",
     "model": "PEW-1480",
     "name": "Attendant Bed-Cum-Chair (Economy)",
     "category": "Room & Ward Care",
@@ -443,13 +443,13 @@
       "Length_Chair": "685mm",
       "Height_Chair": "965mm",
       "Mattress_Thickness": "2.5 inch",
-      "Castors": "\u00d875mm plated Nylon"
+      "Castors": "Ø75mm plated Nylon"
     },
     "optional_accessories": [],
     "image": "/products/PEW-1480.png"
   },
   {
-    "id": 16,
+    "id": "PEW-4100",
     "model": "PEW-4100",
     "name": "Bed Side Locker Economy SS304 Top",
     "category": "Room & Ward Care",
@@ -470,7 +470,7 @@
     "image": "/products/PEW-4100.png"
   },
   {
-    "id": 17,
+    "id": "PEW-4110",
     "model": "PEW-4110",
     "name": "Bed Side Locker Economy Plus MS Body SS Top",
     "category": "Room & Ward Care",
@@ -486,13 +486,13 @@
     "specifications": {
       "Cabinet_Material": "MS CRCA 1.2mm thick",
       "Top_Material": "SS304 sheet 1.2mm thick",
-      "Castors": "\u00d850mm twin castors"
+      "Castors": "Ø50mm twin castors"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4110.png"
   },
   {
-    "id": 18,
+    "id": "PEW-3700",
     "model": "PEW-3700",
     "name": "Bed Side Screen MS (Three Folds With Curtains)",
     "category": "Room & Ward Care",
@@ -507,7 +507,7 @@
       "Four twin castors"
     ],
     "specifications": {
-      "Frame": "\u00d825mm CRCA MS round pipe 1.2mm thick",
+      "Frame": "Ø25mm CRCA MS round pipe 1.2mm thick",
       "Length_Extended": "2400mm",
       "Width": "560mm",
       "Height": "1800mm"
@@ -516,7 +516,7 @@
     "image": "/products/PEW-3700.png"
   },
   {
-    "id": 19,
+    "id": "PEW-3950",
     "model": "PEW-3950",
     "name": "Dressing Trolley SS304 (24\" L X 18\" W X 35.5\" H)",
     "category": "Room & Ward Care",
@@ -540,7 +540,7 @@
     "image": "/products/PEW-3950.png"
   },
   {
-    "id": 20,
+    "id": "PEW-4200",
     "model": "PEW-4200",
     "name": "Soiled Linen Trolley SS 304 (With Canvas Bag)",
     "category": "Room & Ward Care",
@@ -551,20 +551,20 @@
       "Main frame made of top and bottom ring",
       "Vertical support tube",
       "Quality canvas bag provided",
-      "Handle made SS \u00d825mm round tube",
+      "Handle made SS Ø25mm round tube",
       "Three castor wheels"
     ],
     "specifications": {
-      "Diameter": "\u00d8660mm",
+      "Diameter": "Ø660mm",
       "Height": "810mm",
-      "Top_Ring_Diameter": "\u00d8610mm",
-      "Material": "SS304 \u00d816mm and \u00d825mm round tubes"
+      "Top_Ring_Diameter": "Ø610mm",
+      "Material": "SS304 Ø16mm and Ø25mm round tubes"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4200.png"
   },
   {
-    "id": 21,
+    "id": "PEW-4255",
     "model": "PEW-4255",
     "name": "Over Bed Table Economy (Wooden Top)",
     "category": "Room & Ward Care",
@@ -588,7 +588,7 @@
     "image": "/products/PEW-4255.png"
   },
   {
-    "id": 22,
+    "id": "PEW-4250",
     "model": "PEW-4250",
     "name": "Over Bed Table Premium (ABS Top With Knob)",
     "category": "Room & Ward Care",
@@ -612,7 +612,7 @@
     "image": "/products/PEW-4250.png"
   },
   {
-    "id": 23,
+    "id": "PEW-4260",
     "model": "PEW-4260",
     "name": "Over Bed Table Premium Plus (ABS Top With Gas-Spring)",
     "category": "Room & Ward Care",
@@ -638,7 +638,7 @@
     "image": "/products/PEW-4260.png"
   },
   {
-    "id": 24,
+    "id": "PEW-4350",
     "model": "PEW-4350",
     "name": "Patient's Revolving Stool MS Frame SS304 Top",
     "category": "Room & Ward Care",
@@ -646,22 +646,22 @@
     "description": "Revolving stool with MS frame and SS304 top",
     "price": "Contact for Quote",
     "features": [
-      "\u00d8300mm round-revolving top made of SS304 sheet",
-      "Four legged stool made of \u00d825mm CRCA MS round tubes",
-      "Central base pipe of \u00d850mm CRCA MS round pipe",
+      "Ø300mm round-revolving top made of SS304 sheet",
+      "Four legged stool made of Ø25mm CRCA MS round tubes",
+      "Central base pipe of Ø50mm CRCA MS round pipe",
       "Height adjustable by screw thread rod mechanism"
     ],
     "specifications": {
-      "Top_Diameter": "\u00d8300mm",
+      "Top_Diameter": "Ø300mm",
       "Top_Material": "SS304 sheet 1.2mm thick",
-      "Frame": "\u00d825mm CRCA MS round tubes",
-      "Base": "\u00d850mm CRCA MS round pipe"
+      "Frame": "Ø25mm CRCA MS round tubes",
+      "Base": "Ø50mm CRCA MS round pipe"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4350.png"
   },
   {
-    "id": 25,
+    "id": "PEW-4355",
     "model": "PEW-4355",
     "name": "Patient's Revolving Stool Full SS 304",
     "category": "Room & Ward Care",
@@ -669,22 +669,22 @@
     "description": "Revolving stool fully made of SS304",
     "price": "Contact for Quote",
     "features": [
-      "Round-revolving top \u00d8300mm made of SS304 sheet",
-      "Four legged stool made of \u00d825mm SS304 round tubes",
-      "Central base pipe of \u00d850mm SS304 round pipe",
+      "Round-revolving top Ø300mm made of SS304 sheet",
+      "Four legged stool made of Ø25mm SS304 round tubes",
+      "Central base pipe of Ø50mm SS304 round pipe",
       "Height adjustable by screw thread rod mechanism"
     ],
     "specifications": {
-      "Top_Diameter": "\u00d8300mm",
+      "Top_Diameter": "Ø300mm",
       "Top_Material": "SS304 sheet 1.2mm thick",
-      "Frame": "\u00d825mm SS304 round tubes",
-      "Base": "\u00d850mm SS304 round pipe"
+      "Frame": "Ø25mm SS304 round tubes",
+      "Base": "Ø50mm SS304 round pipe"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4355.png"
   },
   {
-    "id": 26,
+    "id": "PEW-4360",
     "model": "PEW-4360",
     "name": "Patient's Revolving Stool (Revolving Cushioned Top Pneumatic)",
     "category": "Room & Ward Care",
@@ -692,14 +692,14 @@
     "description": "Revolving stool with pneumatic cushioned top",
     "price": "Contact for Quote",
     "features": [
-      "Round-revolving \u00d8330mm 75mm thick cushioned top",
+      "Round-revolving Ø330mm 75mm thick cushioned top",
       "PU foam 32 density and plywood mount",
       "Five legged stool",
       "Height adjustable by pneumatic gas springs",
-      "Five \u00d82\" twin wheel"
+      "Five Ø2\" twin wheel"
     ],
     "specifications": {
-      "Top_Diameter": "\u00d8330mm",
+      "Top_Diameter": "Ø330mm",
       "Top_Thickness": "75mm",
       "Top_Material": "PU foam 32 density",
       "Control": "Gas spring knob"
@@ -708,7 +708,7 @@
     "image": "/products/PEW-4360.png"
   },
   {
-    "id": 27,
+    "id": "PEW-4365",
     "model": "PEW-4365",
     "name": "Patient's Revolving Stool (Moulded PU Top Ms Base)",
     "category": "Room & Ward Care",
@@ -716,13 +716,13 @@
     "description": "Revolving stool with moulded PU rubber top",
     "price": "Contact for Quote",
     "features": [
-      "Round-revolving \u00d8330mm 75mm thick rubber top",
+      "Round-revolving Ø330mm 75mm thick rubber top",
       "Four legged stool made of SS304 round tubes",
-      "Central base pipe of \u00d850mm SS304 round pipe",
+      "Central base pipe of Ø50mm SS304 round pipe",
       "Height adjustable by screw thread rod mechanism"
     ],
     "specifications": {
-      "Top_Diameter": "\u00d8330mm",
+      "Top_Diameter": "Ø330mm",
       "Top_Thickness": "75mm",
       "Top_Material": "Moulded PU rubber"
     },
@@ -730,7 +730,7 @@
     "image": "/products/PEW-4365.png"
   },
   {
-    "id": 28,
+    "id": "PEW-4385",
     "model": "PEW-4385",
     "name": "Commode Chair MS",
     "category": "Room & Ward Care",
@@ -742,20 +742,20 @@
       "Fixed backrest 432x280mm",
       "Plastic made fixed arm rest",
       "MS lid 300x350mm",
-      "Tubular frame made of \u00d825mm CRCA MS round tubes"
+      "Tubular frame made of Ø25mm CRCA MS round tubes"
     ],
     "specifications": {
       "Length": "350mm",
       "Width": "350mm",
       "Height": "460mm",
-      "Seat_Cut": "\u00d8220mm round cut on centre",
+      "Seat_Cut": "Ø220mm round cut on centre",
       "Material": "CRCA MS sheet 1.2mm thick"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4385.png"
   },
   {
-    "id": 29,
+    "id": "PEW-4375",
     "model": "PEW-4375",
     "name": "Commode Stool MS",
     "category": "Room & Ward Care",
@@ -765,20 +765,20 @@
     "features": [
       "Square top 350x350mm made of CRCA MS sheet",
       "MS lid 300x350mm",
-      "Legs made of \u00d825mm CRCA MS round tubes",
-      "Horizontal support made of \u00d816mm CRCA MS pipe"
+      "Legs made of Ø25mm CRCA MS round tubes",
+      "Horizontal support made of Ø16mm CRCA MS pipe"
     ],
     "specifications": {
       "Length": "350mm",
       "Width": "350mm",
       "Height": "460mm",
-      "Seat_Cut": "\u00d8220mm round cut"
+      "Seat_Cut": "Ø220mm round cut"
     },
     "optional_accessories": [],
     "image": "/products/PEW-4375.png"
   },
   {
-    "id": 30,
+    "id": "PEW-4390",
     "model": "PEW-4390",
     "name": "Visitor's Stool Square Top Full MS",
     "category": "Room & Ward Care",
@@ -787,8 +787,8 @@
     "price": "Contact for Quote",
     "features": [
       "Square top 350x350mm made of CRCA MS sheet",
-      "Legs made of \u00d825mm CRCA MS round tubes",
-      "Horizontal support made of \u00d816mm CRCA MS pipe"
+      "Legs made of Ø25mm CRCA MS round tubes",
+      "Horizontal support made of Ø16mm CRCA MS pipe"
     ],
     "specifications": {
       "Length": "350mm",
@@ -799,7 +799,7 @@
     "image": "/products/PEW-4390.png"
   },
   {
-    "id": 31,
+    "id": "PEW-4425",
     "model": "PEW-4425",
     "name": "IV/ Saline Stand PVC Base MS Tube",
     "category": "Room & Ward Care",
@@ -807,8 +807,8 @@
     "description": "IV stand with PVC base and MS tube",
     "price": "Contact for Quote",
     "features": [
-      "IV rod made of SS 304 rod \u00d810mm",
-      "Two hooks made of SS 304 rod \u00d88mm",
+      "IV rod made of SS 304 rod Ø10mm",
+      "Two hooks made of SS 304 rod Ø8mm",
       "Height adjustable by knob",
       "Four legged base and central vertical pipe"
     ],
@@ -821,10 +821,8 @@
     "optional_accessories": [],
     "image": "/products/PEW-4425.png"
   },
-  
- 
   {
-    "id": 36,
+    "id": "PEW-4475",
     "model": "PEW-4475",
     "name": "Foot Step Single MS",
     "category": "Room & Ward Care",
@@ -833,7 +831,7 @@
     "price": "Contact for Quote",
     "features": [
       "Step made of CRCA MS sheet",
-      "Leg frame made of \u00d832mm CRCA MS round tube"
+      "Leg frame made of Ø32mm CRCA MS round tube"
     ],
     "specifications": {
       "Length": "460mm",
@@ -844,7 +842,7 @@
     "image": "/products/PEW-4475.png"
   },
   {
-    "id": 37,
+    "id": "PEW-4485",
     "model": "PEW-4485",
     "name": "Foot Step Double MS",
     "category": "Room & Ward Care",
@@ -853,7 +851,7 @@
     "price": "Contact for Quote",
     "features": [
       "Double steps made of CRCA MS sheet",
-      "Leg frame made of \u00d832mm CRCA MS round tube"
+      "Leg frame made of Ø32mm CRCA MS round tube"
     ],
     "specifications": {
       "Length": "460mm",
@@ -863,9 +861,8 @@
     "optional_accessories": [],
     "image": "/products/PEW-4485.png"
   },
- 
   {
-    "id": 39,
+    "id": "PEW-1910",
     "model": "PEW-1910",
     "name": "Stretcher On Trolley Economy MS",
     "category": "Emergency Transfer",
@@ -875,7 +872,7 @@
     "features": [
       "Removable Stretcher made of CRCA MS Sheet",
       "Tubular frame of trolley",
-      "\u00d8150mm single wheel plastic swivel castor"
+      "Ø150mm single wheel plastic swivel castor"
     ],
     "specifications": {
       "Length": "2200mm",
@@ -890,7 +887,7 @@
     "image": "/products/PEW-1910.png"
   },
   {
-    "id": 40,
+    "id": "PEW-1925",
     "model": "PEW-1925",
     "name": "Stretcher Trolley SS With SS Drop Down Side railings",
     "category": "Emergency Transfer",
@@ -914,7 +911,7 @@
     "image": "/products/PEW-1925.png"
   },
   {
-    "id": 41,
+    "id": "PEW-1855",
     "model": "PEW-1855",
     "name": "Emergency Recovery Trolley Premium",
     "category": "Emergency Transfer",
@@ -933,15 +930,15 @@
       "Width": "630mm",
       "Height_Min": "480mm",
       "Height_Max": "770mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Knee_Rest_Tilt": "0-35\u00b0",
-      "Trendelenburg": "0-12\u00b0"
+      "Backrest_Tilt": "0-75°",
+      "Knee_Rest_Tilt": "0-35°",
+      "Trendelenburg": "0-12°"
     },
     "optional_accessories": [],
     "image": "/products/PEW-1855.png"
   },
   {
-    "id": 42,
+    "id": "PEW-1860",
     "model": "PEW-1860",
     "name": "Emergency Recovery Trolley Deluxe",
     "category": "Emergency Transfer",
@@ -968,7 +965,7 @@
     "image": "/products/PEW-1860.png"
   },
   {
-    "id": 43,
+    "id": "PEW-1870",
     "model": "PEW-1870",
     "name": "Emergency Recovery Trolley Imported Premium",
     "category": "Emergency Transfer",
@@ -984,7 +981,7 @@
     "image": "/products/PEW-1870.png"
   },
   {
-    "id": 44,
+    "id": "PEW-3230",
     "model": "PEW-3230",
     "name": "Wheel Chair MS (Non-Folding With Cushion)",
     "category": "Emergency Transfer",
@@ -1013,7 +1010,7 @@
     "image": "/products/PEW-3230.png"
   },
   {
-    "id": 45,
+    "id": "PEW-3290",
     "model": "PEW-3290",
     "name": "Wheel Chair SS304 (Non-Folding With Cushion)",
     "category": "Emergency Transfer",
@@ -1041,7 +1038,7 @@
     "image": "/products/PEW-3290.png"
   },
   {
-    "id": 46,
+    "id": "PEW-3750",
     "model": "PEW-3750",
     "name": "Crash Cart Trolley SS304",
     "category": "Emergency Transfer",
@@ -1058,13 +1055,13 @@
       "SS IV rod"
     ],
     "specifications": {
-      "Castors": "\u00d8125mm single wheel plastic swivel"
+      "Castors": "Ø125mm single wheel plastic swivel"
     },
     "optional_accessories": [],
     "image": "/products/PEW-3750.png"
   },
   {
-    "id": 47,
+    "id": "PEW-2115",
     "model": "PEW-2115",
     "name": "Examination Table Deluxe MS",
     "category": "Examination Room",
@@ -1081,7 +1078,7 @@
       "Length": "1860mm",
       "Width": "540mm",
       "Height": "810mm",
-      "Frame": "\u00d832mm CRCA MS round Pipe 1.2mm thick"
+      "Frame": "Ø32mm CRCA MS round Pipe 1.2mm thick"
     },
     "optional_accessories": [
       "Mattress 2\" thickness 32 density"
@@ -1089,7 +1086,7 @@
     "image": "/products/PEW-2115.png"
   },
   {
-    "id": 48,
+    "id": "PEW-2130",
     "model": "PEW-2130",
     "name": "Examination Table SS 304",
     "category": "Examination Room",
@@ -1113,7 +1110,7 @@
     "image": "/products/PEW-2130.png"
   },
   {
-    "id": 49,
+    "id": "PEW-2200",
     "model": "PEW-2200",
     "name": "Examination Couch Economy MS",
     "category": "Examination Room",
@@ -1141,7 +1138,7 @@
     "image": "/products/PEW-2200.png"
   },
   {
-    "id": 50,
+    "id": "PEW-2500",
     "model": "PEW-2500",
     "name": "Blood Donor Chairs MS",
     "category": "Treatment Devices",
@@ -1149,7 +1146,7 @@
     "description": "Blood donor chair with fixed armrest and cushioned backrest",
     "price": "Contact for Quote",
     "features": [
-      "Main frame made of \u00d825mm CRCA MS round tube",
+      "Main frame made of Ø25mm CRCA MS round tube",
       "Fixed armrest with cushion",
       "Fixed cushioned backrest 510x762mm",
       "Cushioned seat 510x460mm",
@@ -1165,7 +1162,7 @@
     "image": "/products/PEW-2500.png"
   },
   {
-    "id": 51,
+    "id": "PEW-2505",
     "model": "PEW-2505",
     "name": "Blood Donor Chairs MS Deluxe",
     "category": "Treatment Devices",
@@ -1173,7 +1170,7 @@
     "description": "Blood donor chair deluxe model with fixed armrest",
     "price": "Contact for Quote",
     "features": [
-      "Main frame made of \u00d825mm CRCA MS round tube",
+      "Main frame made of Ø25mm CRCA MS round tube",
       "Fixed armrest with cushion",
       "Fixed cushioned backrest 510x762mm",
       "Cushioned seat 510x460mm",
@@ -1188,7 +1185,7 @@
     "image": "/products/PEW-2505.png"
   },
   {
-    "id": 52,
+    "id": "PEW-3500",
     "model": "PEW-3500",
     "name": "Foot Operated 3 Color Biomedical Waste Bin Trolley",
     "category": "Biomedical Waste",
@@ -1214,7 +1211,7 @@
     "image": "/products/PEW-3500.png"
   },
   {
-    "id": 53,
+    "id": "PEW-3520",
     "model": "PEW-3520",
     "name": "Waste Segregation Trolley SS304",
     "category": "Biomedical Waste",
@@ -1236,7 +1233,7 @@
     "image": "/products/PEW-3520.png"
   },
   {
-    "id": 54,
+    "id": "PEW-3550",
     "model": "PEW-3550",
     "name": "Goods Trolley MS",
     "category": "Utility",
@@ -1245,7 +1242,7 @@
     "price": "Contact for Quote",
     "features": [
       "200kg capacity hand operated trolley",
-      "Handle made of \u00d825mm MS CRCA round tubes",
+      "Handle made of Ø25mm MS CRCA round tubes",
       "Platform made of MS CRCA sheet",
       "Base frame made of 25x25x6mm SS 304 angle iron"
     ],
@@ -1259,7 +1256,7 @@
     "image": "/products/PEW-3550.png"
   },
   {
-    "id": 55,
+    "id": "PEW-3560",
     "model": "PEW-3560",
     "name": "Goods Trolley SS304",
     "category": "Utility",
@@ -1268,7 +1265,7 @@
     "price": "Contact for Quote",
     "features": [
       "200kg capacity hand operated trolley",
-      "Handle made of \u00d825mm SS304 round tubes",
+      "Handle made of Ø25mm SS304 round tubes",
       "Platform made of SS 304 sheet",
       "Base frame made of 25x25x6mm SS 304 angle iron"
     ],
@@ -1282,7 +1279,7 @@
     "image": "/products/PEW-3560.png"
   },
   {
-    "id": 56,
+    "id": "PEW-3600",
     "model": "PEW-3600",
     "name": "Jumbo Cylinder Trolley MS",
     "category": "Utility",
@@ -1290,11 +1287,11 @@
     "description": "Jumbo cylinder trolley made of MS",
     "price": "Contact for Quote",
     "features": [
-      "Tubular frame structure made of \u00d825mm MS CR Round tube",
+      "Tubular frame structure made of Ø25mm MS CR Round tube",
       "Base made of MS CR sheet",
-      "Cylinder holder made \u00d822mm MS CR Round pipe",
+      "Cylinder holder made Ø22mm MS CR Round pipe",
       "Two MS chains for cylinder holding",
-      "Two \u00d8150mm castors on front and two \u00d8100mm on rear"
+      "Two Ø150mm castors on front and two Ø100mm on rear"
     ],
     "specifications": {
       "Length": "1170mm",
@@ -1306,9 +1303,8 @@
     ],
     "image": "/products/PEW-3600.png"
   },
-  
   {
-    "id": 63,
+    "id": "PEW-4300",
     "model": "PEW-4300",
     "name": "Mayo's Trolley Full SS 304 (Knob Adjustment)",
     "category": "Operation Room",
@@ -1336,7 +1332,7 @@
     "image": "/products/PEW-4300.png"
   },
   {
-    "id": 64,
+    "id": "PEW-2120",
     "model": "PEW-2120",
     "name": "Gynae Examination Table Deluxe",
     "category": "OB/GYN",
@@ -1360,9 +1356,8 @@
     ],
     "image": "/products/PEW-2120.png"
   },
-  
   {
-    "id": 66,
+    "id": "PEW-2205",
     "model": "PEW-2205",
     "name": "Gynae Examination Couch Economy MS",
     "category": "OB/GYN",
@@ -1388,7 +1383,7 @@
     "image": "/products/PEW-2205.png"
   },
   {
-    "id": 67,
+    "id": "PEW-2210",
     "model": "PEW-2210",
     "name": "Obstetric/ Labour Table",
     "category": "OB/GYN",
@@ -1413,7 +1408,7 @@
     "image": "/products/PEW-2210.png"
   },
   {
-    "id": 68,
+    "id": "PEW-2220",
     "model": "PEW-2220",
     "name": "Labour Delivery Room bed (LDR Bed)",
     "category": "OB/GYN",
@@ -1434,9 +1429,9 @@
       "Width": "900mm",
       "Height_Min": "500mm",
       "Height_Max": "750mm",
-      "Backrest_Tilt": "0-75\u00b0",
-      "Trendelenburg": "0-12\u00b0",
-      "Reverse_Trendelenburg": "0-12\u00b0"
+      "Backrest_Tilt": "0-75°",
+      "Trendelenburg": "0-12°",
+      "Reverse_Trendelenburg": "0-12°"
     },
     "optional_accessories": [
       "High density three section mattress",
@@ -1448,7 +1443,7 @@
     "image": "/products/PEW-2220.png"
   },
   {
-    "id": 69,
+    "id": "PEW-4000",
     "model": "PEW-4000",
     "name": "Food Trolley SS304",
     "category": "Utility",
